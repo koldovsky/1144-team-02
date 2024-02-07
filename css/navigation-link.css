@@ -1,0 +1,32 @@
+.navigation-link {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  opacity: 0.8;
+  transition: opacity 0.2s ease-in;
+  white-space: nowrap;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.navigation-link--underlined {
+  position: relative;
+
+  &:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--ui-white);
+    transform-origin: bottom left;
+    transition: transform 0.3s ease-out;
+  }
+  &:hover:after {
+    transform: scaleX(1);
+  }
+}

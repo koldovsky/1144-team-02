@@ -1,0 +1,8 @@
+:root {
+  --ui-white: #fff;
+  --ui-orange: #ffc123;
+  --ui-black: #111;
+}
+.none {
+  display: none;
+}
