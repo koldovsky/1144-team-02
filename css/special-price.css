@@ -1,10 +1,5 @@
 .special-price {
     background-color: var(--background-color);
-    --background-color: #130f0d;
-    --name-color: #fff;
-    --description-color: #c8c8c8;
-    --special-price-color: #fdbf23;
-    --price-color: #ffc123;
 }
 
 .special-price__title {
@@ -44,8 +39,6 @@
 }
 
 .special-price__image-relax {
-    background-color: black;
     width: 500px;
     height: 500px;
-    /* потім приберу :) */
 }
