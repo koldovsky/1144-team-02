@@ -1,0 +1,51 @@
+.special-price {
+    background-color: var(--background-color);
+    --background-color: #130f0d;
+    --name-color: #fff;
+    --description-color: #c8c8c8;
+    --special-price-color: #fdbf23;
+    --price-color: #ffc123;
+}
+
+.special-price__title {
+    color: var(--special-price-color);
+    font-size: 28px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.special-price__subtitle {
+    color: var(--name-color);
+    font-size: 62px;
+    font-family: 'Teko', sans-serif;
+}
+
+.special-price__menu-list-name {
+    color: var(--name-color);
+    font-size: 38px;
+    font-family: Teko, sans-serif;
+}
+
+.special-price__menu-list-price {
+    color: var(--price-color);
+    font-size: 38px;
+    font-family: Teko, sans-serif;
+}
+
+.special-price__menu-list-description {
+    color: var(--description-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.special-price__menu-list-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+}
+
+.special-price__image-relax {
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    /* потім приберу :) */
+}
