@@ -1,0 +1,62 @@
+.bottled-beer {
+    background-color: var(--background-color);
+    --default-color: #fff;
+    --background-color: #130f0d;
+    --bottled-beer-color: #ffc123;
+    --description-color: #999;
+    --story-color: #999;
+}
+
+.bottled-beer__title {
+    color: var(--bottled-beer-color);
+    font-size: 28px;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.bottled-beer__subtitle {
+    color: var(--default-color);
+    font-size: 62px;
+    font-family: 'Teko', sans-serif;
+}
+
+.bottled-beer__description {
+    color: var(--description-color);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+.bottled-beer-left-arrow,
+.bottled-beer-right-arrow {
+    width: 100px;
+    height: 100px;
+}
+
+.bottled-beer__carousel-description-name {
+    font-size: 54px;
+    font-family: 'Teko', sans-serif;
+    color: var(--default-color);
+}
+
+.bottled-beer__carousel-description-story {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--story-color);
+}
+
+.bottled-beer__carousel-description-procent {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--default-color);
+}
+
+.bottled-beer__carousel-description-ibu {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--default-color);
+}
+
+.bottled-beer__carousel-description-text {
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    color: var(--default-color);
+}
