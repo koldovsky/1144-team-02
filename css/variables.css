@@ -2,6 +2,7 @@
   --ui-white: #fff;
   --ui-orange: #ffc123;
   --ui-black: #111;
+  scroll-behavior: smooth;
 }
 .none {
   display: none;
