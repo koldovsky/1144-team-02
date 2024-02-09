@@ -1,0 +1,16 @@
+.social-link {
+  & svg {
+    transition: all 0.3s ease;
+    background-color: transparent;
+    fill: var(--ui-orange);
+    width: 24px;
+  }
+}
+.social-link:hover {
+  & svg {
+    background-color: var(--ui-orange);
+    & path {
+      fill: var(--ui-black);
+    }
+  }
+}

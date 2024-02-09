@@ -1,0 +1,12 @@
+:root {
+  --ui-white: #fff;
+  --ui-orange: #ffc123;
+  --ui-black: #111;
+  --background-color: #130f0d;
+  --name-color: #fff;
+  --description-color: #c8c8c8;
+  --special-price-color: #fdbf23;
+  --price-color: #ffc123;
+  --default-color: #fff;
+  --story-color: #999;
+}
