@@ -1,0 +1,7 @@
+.beer-logo-carousel__container {
+    background-color: var(--ui-orange);
+}
+
+.beer-logo-image {
+    background-color: rgba(17, 17, 17, 0.05);
+}
