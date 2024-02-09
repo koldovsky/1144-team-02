@@ -1,9 +1,9 @@
 .social-link {
+  color: currentColor;
   & svg {
     transition: all 0.3s ease;
     background-color: transparent;
     fill: var(--ui-orange);
-    width: 24px;
   }
 }
 .social-link:hover {
