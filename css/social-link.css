@@ -10,7 +10,7 @@
   & svg {
     background-color: var(--ui-orange);
     & path {
-      fill: var(--ui-black);
+      fill: inherit;
     }
   }
 }
