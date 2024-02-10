@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--ui-black);
+  background-color: var(--background-color);
 }
 .header__container {
   display: flex;
@@ -11,6 +11,11 @@
 .header__logo {
   width: 180px;
   height: 40px;
+  transition: opacity 0.3s ease;
+  flex-shrink: 0;
+  &:hover {
+    opacity: 0.8;
+  }
 }
 .header__logo-image {
   width: 180px;
@@ -30,7 +35,18 @@
 .header__social-link > svg {
   width: 30px;
 }
-
 .header__burger {
   display: none;
+}
+
+@media (max-width: 768px) {
+  .header__burger {
+    display: block;
+    width: 40px;
+    height: 40px;
+  }
+  .header__social-list,
+  .header__navigation-list {
+    display: none;
+  }
 }
