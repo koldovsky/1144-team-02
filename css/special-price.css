@@ -2,6 +2,16 @@
     background-color: var(--background-color);
 }
 
+.special-price__container {
+    display: flex;
+    flex-direction: row;
+    
+    @media (width-min: 768) {
+        flex-direction: row;
+    }
+}
+
+
 .special-price__title {
     color: var(--special-price-color);
     font-size: 28px;
