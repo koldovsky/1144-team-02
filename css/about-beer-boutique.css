@@ -1,5 +1,6 @@
 .about-beer-boutique {
     background-color: var(--background-color);
+    padding: 15px;
 }
 
 .about-beer-boutique__title {
@@ -24,4 +25,20 @@
     color: rgb(157, 157, 157); 
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
+}
+.about-beer-boutique__button {
+    display: block;
+    border: 1px solid #ffc123;
+    padding: 5px 10px;
+    background-color: var(--background-color);
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    
+}
+
+@media (min-width: 768px) {
+
+    .about-beer-boutique__img {
+        display: flex;
+    }
 }
