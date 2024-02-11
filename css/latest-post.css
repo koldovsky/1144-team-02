@@ -1,0 +1,44 @@
+.latest-posts {
+  background-image: url(/img/background-body.png);
+}
+
+.latest-posts__header {
+  font-family: "Shadows Into Light", cursive;
+  color: var(--ui-orange);
+  font-size: 21px;
+}
+
+.latest-posts__subtitle-font {
+  font-family: "Teko", sans-serif;
+}
+
+.latest-posts__subtitle {
+  font-size: 51px;
+  color: var(--ui-white);
+}
+
+.latest-posts__content {
+  font-size: 19px;
+  color: var(--description-color);
+}
+
+.latest-posts__beer-events-title {
+  font-size: 14px;
+  color: var(--ui-orange);
+}
+
+.latest-posts__beer-event-header {
+  color: var(--ui-white);
+  font-size: 32px;
+}
+
+.latest-posts__beer-event-content {
+  color: var(--story-color);
+  font-size: 17px;
+}
+
+.latest-posts__link {
+  font-size: 12px;
+  color: var(--ui-white);
+  text-decoration: none;
+}
