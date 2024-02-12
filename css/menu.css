@@ -1,0 +1,112 @@
+.menu {
+  background-color: var(--background-color);
+  color: var(--text-light);
+  text-align: center;
+  padding: 90px 0 65px;
+}
+
+.menu__title-container {
+  padding: 0 15px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 2fr;
+}
+
+.menu__title {
+  color: var(--brand-color);
+  font-family: "Shadows Into Light";
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.menu__subtitle {
+  font-family: "Teko", sans-serif;
+  font-size: 40px;
+}
+
+.menu__text,
+.menu__image-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  line-height: 28px;
+  color: var(--description-color);
+}
+
+.menu__container {
+  display: grid;
+  margin-top: 45px;
+}
+
+.menu__image-container {
+  position: relative;
+  padding: 0 15px;
+}
+
+.menu__image {
+  height: 100%;
+}
+
+.menu__image-card {
+  position: absolute;
+  padding: 30px;
+  top: 0;
+  left: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 75%);
+  overflow-y: scroll;
+}
+
+.menu__image-title {
+  font-family: "Teko";
+  font-size: 38px;
+}
+
+.menu__link {
+  color: var(--brand-color);
+  font-size: 12px;
+  line-height: 14px;
+  letter-spacing: 0.6px;
+  font-weight: 700;
+  text-decoration: none;
+  width: fit-content;
+  border: 1px solid transparent;
+  
+  &:hover {
+    border-bottom: 1px solid var(--brand-color);
+  }
+}
+
+@media (min-width: 768px) {
+  .menu__title {
+    font-size: 21px;
+  }
+  .menu__subtitle {
+    font-size: 40px;
+  }
+  .menu__container {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 50px;
+  }
+  .menu__image-title {
+    font-size: 46px;
+
+  }
+}
+
+@media (min-width: 992px) {
+  .menu__title {
+    font-size: 28px;
+  }
+  .menu__subtitle {
+    font-size: 62px;
+  }
+  .menu__container {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .menu__image-title {
+    font-size: 54px;
+  }
+}
