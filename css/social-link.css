@@ -3,12 +3,12 @@
   & svg {
     transition: all 0.3s ease;
     background-color: transparent;
-    fill: var(--ui-orange);
+    fill: var(--brand-color);
   }
 }
 .social-link:hover {
   & svg {
-    background-color: var(--ui-orange);
+    background-color: var(--brand-color);
     & path {
       fill: currentColor;
     }

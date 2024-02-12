@@ -1,7 +1,7 @@
 :root {
-  --ui-white: #fff;
-  --ui-orange: #ffc123;
-  --ui-black: #111;
+  --text-light: #fff;
+  --brand-color: #ffc123;
+  --ui-dark: #111;
   --background-color: #130f0d;
   --name-color: #fff;
   --description-color: #c8c8c8;
