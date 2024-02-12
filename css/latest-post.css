@@ -1,8 +1,233 @@
 .latest-posts {
-  background-image: url(/img/background-body.png);
+  width: 100%;
+  margin: 0;
+  padding-top: 60px;
+  padding-bottom: 130px;
+  box-sizing: border-box;
+  display: block;
+  flex-basis: 100%;
+  z-index: 1;
+  background-image: url(../img/background-body.png);
+  color: #ccc;
+}
+
+.latest-posts__head {
+  text-align: center;
+  box-sizing: border-box;
+  margin: 0 44px;
+  padding: 0 15px;
 }
 
 .latest-posts__header {
+  font-size: 28px;
+  color: var(--ui-orange);
+  font-family: "Shadows Into Light", sans-serif;
+  font-style: italic;
+}
+
+.latest-posts__subtitle {
+  font-size: 62px;
+  font-family: "Teko", sans-serif;
+  line-height: 2;
+  font-weight: 400;
+  color: #fff;
+}
+
+.latest-posts__content {
+  font-size: 19px;
+}
+
+.latest-posts__container {
+  margin: 0 44px;
+  padding: 50px 15px 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: 30%;
+  flex-direction: row;
+}
+
+.latest-posts__container-beer-event {
+  width: 100%;
+  padding: 0 15px;
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: 32%;
+  flex-direction: column;
+}
+
+.latest-posts__container-beer-event-img {
+  flex-basis: 32%;
+  position: relative;
+  overflow: hidden;
+  align-self: start;
+}
+
+.latest-posts__beer-event-image {
+  width: 100%;
+  display: block;
+}
+
+.image-layer {
+  background: transparent;
+  height: auto;
+  width: 100%;
+  position:absolute;
+  top: 0;
+  left: 0;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.image-layer:hover {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.latest-posts__beer-events-title {
+  width: 100%;
+  font-weight: 500;
+  color: var(--ui-orange);
+  font-family: "Shadows Into Light", sans-serif;
+  font-size: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  transition: 0.5s;
+}
+
+.image-layer:hover .latest-posts__beer-events-title {
+  bottom: 49%;
+  opacity: 1;
+}
+
+.latest-posts__beer-event-header {
+  font-family: "Teko", sans-serif;
+  font-size: 38px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #fff;
+}
+
+.latest-posts__beer-event-content {
+  font-size: 17px;
+  color: #9d9d9d;
+  padding-bottom: 15px;
+}
+
+.latest-posts__link {
+  font-size: 12px;
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 12px 24px;
+  cursor: pointer;
+  position: relative;
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+@media (max-width: 700px) {
+  .latest-posts {
+    width: 100%;
+    padding-top: 60px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 90px;
+    margin: auto;
+  }
+
+  .latest-posts__head {
+    padding: 0 15px;
+    margin: 0;
+  }
+
+  .latest-posts__header {
+    font-size: 24px;
+  }
+
+  .latest-posts__subtitle {
+    font-size: 40px;
+  }
+
+  .latest-posts__container {
+    margin: 0;
+    padding: 15px 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-basis: 30%;
+    flex-direction: column;
+    padding-top: 10px;
+    padding-bottom: 20px;
+  }
+
+  .latest-posts__container-beer-event {
+    width: 100%;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-posts__link {
+    font-size: 12px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 12px 24px;
+    cursor: pointer;
+    position: relative;
+    margin-top: 20px;
+    align-self: flex-start;
+  }
+
+  .image-layer {
+  }
+  
+  .image-layer:hover {
+  }
+  
+  .latest-posts__beer-events-title {
+  }
+  
+  .latest-posts__beer-events-title:hover {
+  }
+}
+
+/* .latest-posts {
+  background-image: url(/img/background-body.png);
+  position: relative;
+  box-sizing: border-box;
+  display: block;
+  max-width: 1200px;
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+
+.latest-posts__head {
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.latest-posts__head-container {
+  box-sizing: border-box;
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 100%;
+  text-align: center;
+}
+
+.latest-posts__header {
+  box-sizing: border-box;
+  display: block;
   font-family: "Shadows Into Light", cursive;
   color: var(--ui-orange);
   font-size: 21px;
@@ -25,6 +250,7 @@
 .latest-posts__beer-events-title {
   font-size: 14px;
   color: var(--ui-orange);
+  font-weight: bold;
 }
 
 .latest-posts__beer-event-header {
@@ -41,4 +267,4 @@
   font-size: 12px;
   color: var(--ui-white);
   text-decoration: none;
-}
+} */
