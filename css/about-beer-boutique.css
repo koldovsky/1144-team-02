@@ -1,0 +1,46 @@
+.about-beer-boutique {
+    background-color: var(--background-color);
+    padding: 25px;
+}
+
+.about-beer-boutique__title {
+    color: rgb(255, 193, 35);
+    font-size: 14px;
+    font-family: 'Shadows Into Light', undefined;
+    padding: 15px;
+}
+
+.about-beer-boutique__subtitle {
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    font-family: 'Teko', sans-serif;
+    padding: 15px;
+}
+
+.about-beer-boutique__presentation {
+    color: rgb(204, 204, 204); 
+    font-size: 19px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+}
+
+.about-beer-boutique__text {
+    color: rgb(157, 157, 157); 
+    font-size: 17px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 15px;
+}
+.about-beer-boutique__button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #ffc123;
+    text-decoration: none;
+    color: rgb(17, 17, 17);
+    cursor: pointer;
+    letter-spacing: 0.6px;
+    text-align: center;
+    position: relative;    
+    height: 13.2px;
+    width: 107.137px;
+}
+
