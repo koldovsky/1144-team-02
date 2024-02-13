@@ -52,8 +52,13 @@
   display: flex;
 }
 
+.full-menu__list-item {
+  margin-bottom: 30px;
+}
+
 .full-menu__list-underline {
-  height: 26px;
+  /* display: block; */
+  height: 22px;
   flex: 1;
   border-bottom: 2px dotted var(--description-color);
 }
@@ -69,7 +74,7 @@
 .full-menu__list-item-name {
   color: var(--text-light);
   text-transform: uppercase;
-  margin-bottom: 0;
+  margin-bottom: 10px;
 }
 
 .full-menu__list-item-ingredients {
@@ -100,7 +105,7 @@
     font-size: 32px;
   }
   .full-menu__list-underline {
-    height: 32px;
+    height: 28px;
   }
 }
 
@@ -121,6 +126,6 @@
     font-size: 38px;
   }
   .full-menu__list-underline {
-    height: 38px;
+    height: 32px;
   }
 }
