@@ -20,7 +20,7 @@
 }
 
 .testimonials__text {
-    color: rgb(204, 204, 204); 
+    color: var(--description-color); 
     font-size: 19px;
     font-family: 'Open Sans', sans-serif;
     padding: 15px;
@@ -36,7 +36,7 @@
 }
 
 .testimonials__client-glance {
-    color: rgb(157, 157, 157);
+    color: var(--story-color);
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
     padding: 15px;
