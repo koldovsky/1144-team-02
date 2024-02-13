@@ -30,9 +30,21 @@
     font-family: 'Open Sans', sans-serif;
     padding: 15px;
 }
+
+.about-beer-boutique__img {
+    background-image: url(../index.about-beer-boutique.partial.html)
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    object-position: center;
+    object-fit: cover;
+    border: 1px solid var(--brand-color);
+
+}
+
 .about-beer-boutique__button {
     display: block;
-    padding: 10px 20px;
     background-color: var(--brand-color);
     border: 1px solid var(--brand-color);
     text-decoration: none;
@@ -45,5 +57,6 @@
     width: 187px;
     font-weight: 700px;
     font-size: 12px;
+    margin: auto;
 }
 
