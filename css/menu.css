@@ -50,21 +50,26 @@
 
 .menu__image-card {
   position: absolute;
-  padding: 30px;
+  padding: 60px;
   top: 0;
   left: 0;
   height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-  background-color: rgba(0, 0, 0, 75%);
+  background-color: rgba(0, 0, 0, 55%);
   overflow-y: scroll;
 }
 
 .menu__image-title {
   font-family: "Teko";
   font-size: 38px;
+  margin-bottom: 25px;
+}
+
+.menu__image-description {
+  margin-bottom: 25px;
 }
 
 .menu__link {
@@ -93,9 +98,11 @@
     grid-template-columns: repeat(2, 1fr);
     margin-top: 50px;
   }
+  .menu__image-card {
+    padding: 30px;
+  }
   .menu__image-title {
     font-size: 46px;
-
   }
 }
 
