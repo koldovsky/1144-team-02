@@ -33,14 +33,17 @@
 .about-beer-boutique__button {
     display: block;
     padding: 10px 20px;
-    background-color: #ffc123;
+    background-color: var(--brand-color);
+    border: 1px solid var(--brand-color);
     text-decoration: none;
-    color: rgb(17, 17, 17);
+    color: var(--ui-dark);
     cursor: pointer;
     letter-spacing: 0.6px;
     text-align: center;
     position: relative;    
-    height: 13.2px;
-    width: 107.137px;
+    height: 55px;
+    width: 187px;
+    font-weight: 700px;
+    font-size: 12px;
 }
 
