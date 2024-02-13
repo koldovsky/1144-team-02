@@ -9,4 +9,8 @@
   --price-color: #ffc123;
   --default-color: #fff;
   --story-color: #999;
+  --contacts-form-text-color: #fff;
+  --contacts-form-text-link-color: #9d9d9dfc;
+  --contacts-form-image-icon-color: #ffc123;
+  --contacts-form-image-color: #000000fc;
 }
