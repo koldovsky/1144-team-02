@@ -30,7 +30,7 @@
 }
 
 .contacts__form-text {
-  color: #fff;
+  color: var(--contacts-form-text-color);
   margin: 7.5px;
   font-family: "Teko", sans-serif;
 }
@@ -41,7 +41,7 @@
 }
 
 .contacts__form-text-link {
-  color: #9d9d9dfc;
+  color: var(--contacts-form-text-link-color);
   text-decoration: none;
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
@@ -51,13 +51,13 @@
   width: 60px;
   height: 60px;
   border-radius: 50%;
-  background-color: #000000fc;
+  background-color: var(--contacts-form-image-color);
   display: block;
   position: relative;
 }
 
 .contacts__form-image-icon {
-  color: #ffc123;
+  color:var(--contacts-form-image-icon-color);
   width: 40px;
   height: 40px;
   display: block;
