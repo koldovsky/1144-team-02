@@ -5,7 +5,7 @@
     background-attachment: fixed;
     background-size: cover;
     scroll-behavior: smooth;
-    min-height: 900px;
+    height: 100%;
 
 }
 
