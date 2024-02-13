@@ -13,4 +13,8 @@
   --contacts-form-text-link-color: #9d9d9dfc;
   --contacts-form-image-icon-color: #ffc123;
   --contacts-form-image-color: #000000fc;
+  --contacts-form-text-link-color: #9d9d9dfc;
+  --contacts-form-image-icon-color: #ffc123;
+  --contacts-form-background-color: #000000fc;
+  --contacts-background-form-color: rgba(0, 0, 0, 0.61);
 }
