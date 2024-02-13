@@ -1,0 +1,131 @@
+.full-menu__main {
+  background-color: var(--background-color);
+  color: var(--text-light);
+  text-align: center;
+  padding: 0 30px 120px;
+}
+
+.full-menu__header {
+  background-color: var(--brand-color);
+  background-image: url(../img/contacts-title-background.png);
+  background-position-y: 56%;
+  height: 110px;
+}
+
+.full-menu__header-title {
+  line-height: 110px;
+}
+
+
+.full-menu__header-title,
+.full-menu__subtitle {
+  font-family: "Teko", sans-serif;
+  font-size: 40px;
+  color: var(--ui-dark);
+  text-align: center;
+}
+
+.full-menu__container {
+  padding: 90px 0 30px;
+  margin: auto;
+}
+
+.full-menu__title {
+  font-family: "Shadows Into Light";
+  font-size: 14px;
+  color: var(--brand-color);
+  margin-bottom: 20px;
+}
+
+.full-menu__subtitle {
+  color: var(--text-light);
+  margin-bottom: 25px;
+}
+
+.full-menu__text {
+  font-size: 19px;
+  color: var(--description-color);
+  margin-bottom: 50px;
+}
+
+.full-menu__list-item-wrap {
+  display: flex;
+}
+
+.full-menu__list-item {
+  margin-bottom: 30px;
+}
+
+.full-menu__list-underline {
+  /* display: block; */
+  height: 22px;
+  flex: 1;
+  border-bottom: 2px dotted var(--description-color);
+}
+
+.full-menu__list-title,
+.full-menu__list-item-name,
+.full-menu__list-item-price {
+  font-family: "Teko", sans-serif;
+  font-size: 26px;
+  color: var(--brand-color);
+}
+
+.full-menu__list-item-name {
+  color: var(--text-light);
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.full-menu__list-item-ingredients {
+  text-align: left;
+  color: var(--contacts-form-text-link-color);
+  font-size: 17px;
+}
+
+.full-menu__image {
+  display: grid;
+  margin: auto;
+}
+
+@media (min-width: 768px) {
+  .full-menu__header-title,
+  .full-menu__subtitle {
+    font-size: 51px;
+  }
+  .full-menu__container {
+    padding-top: 105px;
+  }
+  .full-menu__title {
+    font-size: 21px;
+  }
+  .full-menu__list-title,
+  .full-menu__list-item-name,
+  .full-menu__list-item-price {
+    font-size: 32px;
+  }
+  .full-menu__list-underline {
+    height: 28px;
+  }
+}
+
+@media (min-width: 992px) {
+  .full-menu__header-title,
+  .full-menu__subtitle {
+    font-size: 62px;
+  }
+  .full-menu__container {
+    padding-top: 120px;
+  }
+  .full-menu__title {
+    font-size: 28px;
+  }
+  .full-menu__list-title,
+  .full-menu__list-item-name,
+  .full-menu__list-item-price {
+    font-size: 38px;
+  }
+  .full-menu__list-underline {
+    height: 32px;
+  }
+}

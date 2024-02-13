@@ -37,39 +37,35 @@
 
 .top-choice__images-container {
   display: grid;
-  place-items: center;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  margin-bottom: 45px;
-  gap: 30px;
-  min-height: 300px;
+  gap: 20px;
+  margin-bottom: 25px;
+  padding: 0 15px;
 }
 
 .top-choice__image {
-  content: "";
   width: 100%;
-  height: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  object-position: center;
+  height: 0;
+  padding-top: 100%;
   object-fit: cover;
   border: 1px solid var(--brand-color);
-}
 
-.top-choice__image .img--1 {
-  background-image: url(../img/top_choice_chips.webp);
-}
+  & .img--1 {
+    background-image: url(../img/top_choice_chips.webp);
+  }
 
-.top-choice__image .img--2 {
-  background-image: url(../img/top_choice_beer.webp);
-}
+  & .img--2 {
+    background-image: url(../img/top_choice_beer.webp);
+  }
 
-.top-choice__image .img--3 {
-  background-image: url(../img/top_choice_burger.webp);
-}
+  & .img--3 {
+    background-image: url(../img/top_choice_burger.webp);
+  }
 
-.top-choice__image .img--4 {
-  background-image: url(../img/top_choice_friends.webp);
+  & .img--4 {
+    background-image: url(../img/top_choice_friends.webp);
+  }
 }
 
 .top-choice__menu-container {
@@ -104,11 +100,32 @@
   text-align: right;
 }
 
+.top-choice__menu-underline {
+  display: block;
+  height: 22px;
+  flex: 1;
+  border-bottom: 2px dotted var(--description-color);
+}
+
 .top-choice__menu-item-ingredients {
   font-size: 17px;
   color: var(--description-color);
   text-align: left;
   line-height: 26px;
+}
+
+.top-choice__link {
+  display: block;
+  background-color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  text-decoration: none;
+  width: 197px;
+  height: 55px;
+  line-height: 55px;
+  margin: auto;
+  font-weight: bold;
+  font-size: 12px;
+  color: var(--ui-dark);
 }
 
 @media (min-width: 768px) {
@@ -138,6 +155,9 @@
   .top-choice__menu:first-child {
     margin-bottom: 0;
   }
+  .top-choice__menu-underline {
+    height: 28px;
+  }
 }
 
 @media (min-width: 992px) {
@@ -158,23 +178,7 @@
   .top-choice__menu-item-price {
     font-size: 38px;
   }
-}
-
-.menu__underline {
-  content: "";
-  border-bottom: 1px dotted var(--description-color);
-}
-
-.top-choice__link {
-  display: block;
-  background-color: var(--brand-color);
-  border: 1px solid var(--brand-color);
-  text-decoration: none;
-  width: 197px;
-  height: 55px;
-  line-height: 55px;
-  margin: auto;
-  font-weight: 700;
-  font-size: 12px;
-  color: var(--ui-dark);
+  .top-choice__menu-underline {
+    height: 32px;
+  }
 }

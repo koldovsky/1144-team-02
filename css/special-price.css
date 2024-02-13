@@ -5,7 +5,7 @@
     background-attachment: fixed;
     background-size: cover;
     scroll-behavior: smooth;
-    min-height: 900px;
+    height: 100%;
 
 }
 
@@ -108,9 +108,9 @@
 }
 
 .special-price__menu-list-image {
-    width: 80px;
-    height: 80px;
-    border-radius: 200px;
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
     margin: 10px;
 }
 
