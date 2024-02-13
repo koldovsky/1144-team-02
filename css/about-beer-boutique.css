@@ -33,7 +33,6 @@
 
 
 .about-beer-boutique__button {
-    padding: 20;
     display: block;
     background-color: var(--brand-color);
     border: 1px solid var(--brand-color);
@@ -59,7 +58,7 @@
     object-position: center;
     object-fit: cover;
     border: 1px solid var(--brand-color);
-    padding-top: 90px;
+    
 
 }
 
