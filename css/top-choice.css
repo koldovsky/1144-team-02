@@ -1,0 +1,180 @@
+.top-choice {
+  background-color: var(--background-color);
+  color: var(--text-light);
+  text-align: center;
+  padding: 60px 24px 130px;
+}
+
+.top-choice__title-container {
+  padding: 0 15px;
+  display: grid;
+  grid-template-rows: 1fr 2fr 1fr;
+  place-items: center;
+  margin-bottom: 25px;
+}
+
+.top-choice__title {
+  color: var(--brand-color);
+  font-family: "Shadows Into Light";
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 20px;
+}
+
+.top-choice__subtitle {
+  color: var(--brand-color);
+  font-family: "Teko", sans-serif;
+  font-size: 40px;
+  margin-bottom: 25px;
+}
+
+.top-choice__text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  line-height: 28px;
+  color: var(--description-color);
+}
+
+.top-choice__images-container {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  margin-bottom: 45px;
+  gap: 30px;
+  min-height: 300px;
+}
+
+.top-choice__image {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-position: center;
+  object-fit: cover;
+  border: 1px solid var(--brand-color);
+}
+
+.top-choice__image .img--1 {
+  background-image: url(../img/top_choice_chips.webp);
+}
+
+.top-choice__image .img--2 {
+  background-image: url(../img/top_choice_beer.webp);
+}
+
+.top-choice__image .img--3 {
+  background-image: url(../img/top_choice_burger.webp);
+}
+
+.top-choice__image .img--4 {
+  background-image: url(../img/top_choice_friends.webp);
+}
+
+.top-choice__menu-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-bottom: 50px;
+}
+
+.top-choice__menu:first-child {
+  margin-bottom: 50px;
+}
+
+.top-choice__menu-item {
+  list-style: none;
+  padding: 0 15px;
+  margin-bottom: 20px;
+}
+
+.top-choice__menu-item-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-choice__menu-item-name,
+.top-choice__menu-item-price {
+  font-family: "Teko", sans-serif;
+  font-size: 26px;
+}
+
+.top-choice__menu-item-price {
+  color: var(--brand-color);
+  text-align: right;
+}
+
+.top-choice__menu-item-ingredients {
+  font-size: 17px;
+  color: var(--description-color);
+  text-align: left;
+  line-height: 26px;
+}
+
+@media (min-width: 768px) {
+  .top-choice {
+    padding: 60px 40px 130px;
+  }
+  .top-choice__title {
+    font-size: 21px;
+  }
+  .top-choice__subtitle {
+    font-size: 40px;
+  }
+  .top-choice__images-container {
+    margin-bottom: 50px;
+  }
+  .top-choice__menu {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+  }
+  .top-choice__menu-container {
+    grid-template-columns: 1fr 1fr;
+  }
+  .top-choice__menu-item-name,
+  .top-choice__menu-item-price {
+    font-size: 32px;
+  }
+  .top-choice__menu:first-child {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  .top-choice__title {
+    font-size: 28px;
+  }
+  .top-choice__subtitle {
+    font-size: 62px;
+  }
+  .top-choice__images-container {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+  }
+  .top-choice__menu-container {
+    margin-bottom: 55px;
+  }
+  .top-choice__menu-item-name,
+  .top-choice__menu-item-price {
+    font-size: 38px;
+  }
+}
+
+.menu__underline {
+  content: "";
+  border-bottom: 1px dotted var(--description-color);
+}
+
+.top-choice__link {
+  display: block;
+  background-color: var(--brand-color);
+  border: 1px solid var(--brand-color);
+  text-decoration: none;
+  width: 197px;
+  height: 55px;
+  line-height: 55px;
+  margin: auto;
+  font-weight: 700;
+  font-size: 12px;
+  color: var(--ui-dark);
+}

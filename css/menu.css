@@ -8,7 +8,8 @@
 .menu__title-container {
   padding: 0 15px;
   display: grid;
-  grid-template-rows: 1fr 2fr 2fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  place-items: center;
 }
 
 .menu__title {
@@ -16,11 +17,13 @@
   font-family: "Shadows Into Light";
   font-size: 14px;
   line-height: 20px;
+  margin-bottom: 20px;
 }
 
 .menu__subtitle {
   font-family: "Teko", sans-serif;
   font-size: 40px;
+  margin-bottom: 25px;
 }
 
 .menu__text,
@@ -31,7 +34,7 @@
   color: var(--description-color);
 }
 
-.menu__container {
+.menu__content-container {
   display: grid;
   margin-top: 45px;
 }
@@ -86,7 +89,7 @@
   .menu__subtitle {
     font-size: 40px;
   }
-  .menu__container {
+  .menu__content-container {
     grid-template-columns: repeat(2, 1fr);
     margin-top: 50px;
   }
@@ -103,7 +106,7 @@
   .menu__subtitle {
     font-size: 62px;
   }
-  .menu__container {
+  .menu__content-container {
     grid-template-columns: repeat(3, 1fr);
   }
   .menu__image-title {
