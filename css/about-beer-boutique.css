@@ -51,8 +51,8 @@
 
 .about-beer-boutique__img {
     background-image: url(../index.about-beer-boutique.partial.html)
-    width: 320px;
-    height: 192px;
+    width: 100%;
+    height: 100%;
     background-position: center;
     background-repeat: no-repeat;
     object-position: center;
