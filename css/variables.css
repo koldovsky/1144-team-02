@@ -13,4 +13,11 @@
   --contacts-form-text-link-color: #9d9d9dfc;
   --contacts-form-image-icon-color: #ffc123;
   --contacts-form-image-color: #000000fc;
+  --contacts-form-text-link-color: #9d9d9dfc;
+  --contacts-form-background-color: #000000fc;
+  --contacts-background-form-color: rgba(0, 0, 0, 0.61);
+  --botton-reserve-background-color: #ffc123;
+  --field-outline-color: #3b99fc;
+  --reservation-field-color: rgba(255, 255, 255, 0.04);
+  --reservation-field-text-color: rgba(255, 255, 255, 0.54);
 }

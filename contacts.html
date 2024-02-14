@@ -114,58 +114,62 @@
             </div>
             <div class="contacts__form-text">
               <h2 class="contacts__form-text-title">WORKING HOURS</h2>
-              <p class="contacts__form-text-link">4 PM — 2 AM</p>
+              <p class="contacts__form-text-title-info">4 PM — 2 AM</p>
             </div>
           </article>
         </div>
-        <div class="contacts__forms-map">
-          <iframe
-            class="contact__forms-map-address"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.173223834252!2d-73.98992862424848!3d40.73621373613337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a1e7361933%3A0xe589c2a6cfd5b922!2s57%20Irving%20Pl%2C%20New%20York%2C%20NY%2010003!5e0!3m2!1sru!2sus!4v1707291625715!5m2!1sru!2sus"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+        <div class="contacts__forms-field">
+          <div class="contacts__forms-map">
+            <iframe
+              class="contact__forms-map-address"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.173223834252!2d-73.98992862424848!3d40.73621373613337!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c259a1e7361933%3A0xe589c2a6cfd5b922!2s57%20Irving%20Pl%2C%20New%20York%2C%20NY%2010003!5e0!3m2!1sru!2sus!4v1707291625715!5m2!1sru!2sus"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+          <div class="contacts__forms-form">
+            <form
+              class="contacts__forms-reservation"
+              action="https://formspree.io/f/xxx"
+              method="post"
+            >
+              <input
+                type="text"
+                name="Name"
+                placeholder="Name"
+                required
+                class="contacts__forms-reservation-field"
+              />
+              <input
+                type="number"
+                name="Phone number"
+                placeholder="Phone number"
+                required
+                class="contacts__forms-reservation-field"
+              />
+              <input
+                type="number"
+                name="Number of guests"
+                placeholder="Number of guests"
+                required
+                class="contacts__forms-reservation-field"
+              />
+              <input
+                type="date"
+                name="date"
+                required
+                class="contacts__forms-reservation-field"
+              />
+              <input
+                type="submit"
+                value="Reserve"
+                class="contacts__forms-reservation-submit"
+              />
+            </form>
+          </div>
         </div>
-        <form
-          class="contacts__forms-reservation"
-          action="https://formspree.io/f/xxx"
-          method="post"
-        >
-          <input
-            type="text"
-            name="Name"
-            placeholder="Name"
-            required
-            class="contacts__forms-reservation-field"
-          />
-          <input
-            type="number"
-            name="Phone number"
-            placeholder="Phone number"
-            required
-            class="contacts__forms-reservation-field"
-          />
-          <input
-            type="number"
-            name="Number of guests"
-            placeholder="Number of guests"
-            required
-            class="contacts__forms-reservation-field"
-          />
-          <input
-            type="date"
-            name="date"
-            required
-            class="contacts__forms-reservation-field"
-          />
-          <input
-            type="submit"
-            value="Reserve"
-            class="contacts__forms-reservation-submit"
-          />
-        </form>
       </div>
     </main>
     <footer></footer>
