@@ -1,0 +1,39 @@
+.team {
+    background-color: var(--background-color);
+}
+
+.team__title {
+    color: var(--brand-color);
+    font-family: "Shadows Into Light";
+    font-size: 14px;
+}
+
+.team__subtitle {
+    color: var(--text-light);
+    font-family: "Teko";
+    font-size: 40px;
+}
+
+.team__description {
+    color: var(--story-color);
+    font-family: "Open Sans";
+    font-size: 19px;
+}
+
+.team__member-name {
+    color: var(--name-color);
+    font-family: "Teko";
+    font-size: 26px;
+}
+
+.team__member-role {
+    color: var(--brand-color);
+    font-family: "Open Sans";
+    font-size: 15px;
+}
+
+.team__member-description {
+    color: var(--story-color);
+    font-family: "Open Sans";
+    font-size: 17px;
+}
