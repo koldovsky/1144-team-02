@@ -121,7 +121,7 @@
     grid-template-columns: repeat(3, 1fr);
   }
   .menu__image-card {
-    padding-top: 100px;
+    padding-top: 120px;
     justify-content: flex-start;
     background-color: rgba(0, 0, 0, 0%);
   }
@@ -130,6 +130,7 @@
   }
   .menu__image-title {
     font-size: 54px;
+    margin-bottom: 60px;
   }
   .menu__image-description,
   .menu__link {
