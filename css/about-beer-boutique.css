@@ -51,8 +51,12 @@
     margin-top: 25px;
     box-sizing: border-box;
     font-family: "Open Sans", sans-serif;
-    line-height: 13px;
+    line-height: 25px;
     padding: 12px 24px;
+}
+
+.about-beer-boutique__button:hover {
+    text-decoration: underline;
 }
 
 .about-beer-boutique__img {
@@ -61,6 +65,21 @@
     height: auto;
     text-align: start;
     
+}
+
+@media (min-width: 768px) {
+
+    .about-beer-boutique__img {
+        background-image: url(../index.about-beer-boutique.partial.html);
+        display: flex;
+        background-size: cover;
+        background-position: 50% 50%;
+        min-height: 768px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
 }
 
 
