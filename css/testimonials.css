@@ -25,6 +25,7 @@
     font-family: 'Open Sans', sans-serif;
     padding: 15px;
     text-align: center;
+    line-height: 27px;
 }
 
 .testimonials__client-name {
@@ -41,6 +42,7 @@
     font-family: 'Open Sans', sans-serif;
     padding: 15px;
     text-align: center;
+    line-height: 25px;
 }
 .testimonials__client-glance-date {
     color: var(--brand-color);
@@ -48,5 +50,18 @@
     font-family: 'Open Sans', sans-serif;
     padding: 15px;
     text-align: center;
+}
+
+.testimonials__container-image {
+    max-width: 70px;
+    max-height: 70px;
+    border-radius: 50%;
+    margin: 10px; 
+    text-align: center;
+    flex-direction: row;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+      
 }
 
