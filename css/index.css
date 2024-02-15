@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
 @import "./reset.css";
 @import "./variables.css";
@@ -18,7 +19,7 @@
 @import "about-beer-boutique.css";
 @import "testimonials.css";
 @import "./top-choice.css";
-@import "./contacts.css";
 @import "./full-menu.css";
 @import "./table-reserve.css";
 @import "./our-team.css";
+@import './footer.css';
