@@ -18,7 +18,7 @@
 }
 
 .contacts__forms {
-  background-image: url(../img/contacts-body-background.png);
+  background-image: url(../img/main-background.png);
 }
 
 .contacts__form {
@@ -142,6 +142,8 @@
 
 .contacts__forms-reservation-submit {
   font-family: "Open Sans", sans-serif;
+  text-transform: uppercase;
+  font-weight: bold;
   background-color: var(--botton-reserve-background-color);
   border: 0;
   cursor: pointer;
