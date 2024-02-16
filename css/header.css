@@ -48,7 +48,6 @@
   display: contents;
 }
 
-
 @media (max-width: 768px) {
   body:has(.header__mobile-navigation.open) {
     overflow: hidden;
