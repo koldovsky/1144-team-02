@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Teko&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
 
 :root {
   --text-light: #fff;
@@ -26,5 +26,9 @@
   --reservation-field-color: rgba(255, 255, 255, 0.04);
   --reservation-field-text-color: rgba(255, 255, 255, 0.54);
   --table-reserve-text-color: #d0d0d0fc;
-  --reservstion-button-text-color:  #111111;
+  --reservstion-button-text-color: #111111;
+  --slides-number: 5;
+  --slide-width: 250px;
+  --slide-height: 300px;
+  --animation-time: 10s;
 }

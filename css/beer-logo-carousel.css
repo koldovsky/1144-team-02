@@ -1,7 +1,108 @@
-.beer-logo-carousel__container {
-    background-color: var(--ui-orange);
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(calc(-250px * var(--slides-number)));
+  }
 }
 
-.beer-logo-image {
-    background-color: rgba(17, 17, 17, 0.05);
+.beer-logo-carousel {
+  align-items: center;
+  background: var(--brand-color);
+  display: flex;
+  position: relative;
+  justify-content: center;
+}
+
+.slide-image {
+  height: auto;
+  width: auto;
+  padding: 0 10px;
+}
+
+.slider {
+  background: var(--brand-color);
+  box-shadow: 0 10px 20px -5px rgba(0, 0, 0, 0.125);
+  height: auto;
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  width: auto;
+}
+
+.slider::before,
+.slider::after {
+  background: linear-gradient(
+    to right,
+    var(--contacts-background-form-color) 0%,
+    var(--reservation-field-color) 100%
+  );
+  content: "";
+  height: 138px;
+  position: absolute;
+  width: 100px;
+  z-index: 2;
+}
+
+.slider::after {
+  right: 0;
+  top: 0;
+  transform: rotateZ(180deg);
+}
+
+.slider::before {
+  left: 0;
+  top: 0;
+}
+
+.slider .slide-track {
+  animation: scroll var(--animation-time) linear infinite;
+  display: flex;
+  width: calc(var(--slide-height) * var(--slides-number) * 2);
+}
+
+.slider .slide {
+  height: auto;
+  width: ;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.original {
+  display: flex;
+  justify-content: center;
+}
+
+.repeat {
+  display: flex;
+  justify-content: center;
+}
+
+.original img,
+.repeat img {
+  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.1));
+}
+
+@media (max-width: 700px) {
+  .slider .slide-track {
+    animation: scroll var(--animation-time) linear infinite;
+    display: flex;
+    width: calc((var(--slide-height) / 1.5) * var(--slides-number) * 2);
+  }
+
+  .slider::before,
+  .slider::after {
+    background: linear-gradient(
+      to right,
+      var(--contacts-background-form-color) 0%,
+      var(--reservation-field-color) 100%
+    );
+    content: "";
+    height: 100px;
+    position: absolute;
+    width: 50pxpx;
+    z-index: 2;
+  }
 }
