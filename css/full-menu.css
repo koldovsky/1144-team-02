@@ -7,7 +7,7 @@
 
 .full-menu__header {
   background-color: var(--brand-color);
-  background-image: url(../img/contacts-title-background.png);
+  background-image: url(../../img/contacts-title-background.png);
   background-position-y: 56%;
   height: 110px;
 }
@@ -15,7 +15,6 @@
 .full-menu__header-title {
   line-height: 110px;
 }
-
 
 .full-menu__header-title,
 .full-menu__subtitle {
@@ -57,7 +56,6 @@
 }
 
 .full-menu__list-underline {
-  /* display: block; */
   height: 22px;
   flex: 1;
   border-bottom: 2px dotted var(--description-color);

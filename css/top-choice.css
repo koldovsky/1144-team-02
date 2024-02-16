@@ -51,21 +51,21 @@
   background-size: cover;
 }
 
- .img--1 {
+.img--1 {
   background-image: url(../img/top_choice_chips.webp);
   background-position: 50%;
 }
 
- .img--2 {
+.img--2 {
   background-image: url(../img/top_choice_beer.webp);
 }
 
- .img--3 {
+.img--3 {
   background-image: url(../img/top_choice_burger.webp);
   background-position: 50%;
 }
 
- .img--4 {
+.img--4 {
   background-image: url(../img/top_choice_friends.webp);
   background-position: 50%;
 }
@@ -128,6 +128,10 @@
   font-weight: bold;
   font-size: 12px;
   color: var(--ui-dark);
+}
+
+.top-choice__link:hover {
+  opacity: 0.8;
 }
 
 @media (min-width: 768px) {
