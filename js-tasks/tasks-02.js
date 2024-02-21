@@ -24,14 +24,14 @@ function min(arr, toReturn) {
     case "value":
       return Math.min(...arr);
     case "index":
-      return arr.indexOf(Math.min(...arr)); 
+      return arr.indexOf(Math.min(...arr));
   }
 }
 //////////////////////////////////////////////////////////////////////////////
 // Поглиблені задачки (робити за бажанням):
+
 // A wolf in sheep's clothing
 // https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
-
 function warnTheSheep(queue) {
   const sheepsInFrontOfWolf = queue.slice(queue.indexOf("wolf"));
   const sheepToBeEatten = sheepsInFrontOfWolf.length - 1;
