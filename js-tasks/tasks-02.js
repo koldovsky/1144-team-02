@@ -1,5 +1,6 @@
 "use strict";
 
+//////////////////////////////////////////////////////////////////////////////
 // На CodeWars виконуєте наступні завдання, їх закинете в табличку
 // в новий файлик tasks-02.js (не хвилюйтеся, якщо не осилите всі, тут з запасом):
 
@@ -19,13 +20,18 @@ const max = (list) => Math.max(...list);
 // Smallest value of an array
 // https://www.codewars.com/kata/544a54fd18b8e06d240005c0/train/javascript
 function min(arr, toReturn) {
-  const min = Math.min(...arr);
-  return toReturn === "value" ? min : arr.indexOf(min);
+  switch (toReturn) {
+    case "value":
+      return Math.min(...arr);
+    case "index":
+      return arr.indexOf(Math.min(...arr)); 
+  }
 }
-
+//////////////////////////////////////////////////////////////////////////////
 // Поглиблені задачки (робити за бажанням):
 // A wolf in sheep's clothing
 // https://www.codewars.com/kata/a-wolf-in-sheeps-clothing/train/javascript
+
 function warnTheSheep(queue) {
   const sheepsInFrontOfWolf = queue.slice(queue.indexOf("wolf"));
   const sheepToBeEatten = sheepsInFrontOfWolf.length - 1;
@@ -44,7 +50,9 @@ function firstNonConsecutive(arr) {
   return arr.find((el, indx) => el !== indx + arr[0]) ?? null;
 }
 
+/////////////////////////////////////////////////////////////////////////////
 // Додаткові задачки по JS, щоб формувати навички, якщо маєте час і бажання 🙂
+
 // Double Integer    https://www.codewars.com/kata/53ee5429ba190077850011d4/train/javascript
 const doubleInteger = (i) => i * 2;
 
@@ -72,6 +80,7 @@ const nthEven = (n) => (n - 1) * 2;
 function getRealFloor(n) {
   return n <= 0 ? n : n <= 12 ? n - 1 : n - 2;
 }
+
 // Clock    https://www.codewars.com/kata/55f9bca8ecaa9eac7100004a/train/javascript
 const past = (h, m, s) => (h * 3600 + m * 60 + s) * 1000;
 
