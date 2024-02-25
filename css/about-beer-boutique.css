@@ -37,7 +37,6 @@
     text-align: start;
 }
 
-
 .about-us__link {
     display: block;
     background-color: var(--brand-color);
@@ -65,7 +64,6 @@
     margin: 0 10px 10px 0;
     block-size: 192px;
     overflow: hidden;
-
 }
 
 @media (min-width: 768px) {
