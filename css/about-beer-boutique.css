@@ -18,7 +18,7 @@
 }
 
 .about-beer-boutique__presentation {
-    color: var(--description-color); 
+    color: var(--description-color);
     font-size: 19px;
     font-family: 'Open Sans', sans-serif;
     padding: 15px;
@@ -27,7 +27,7 @@
 }
 
 .about-beer-boutique__text {
-    color: var(--story-color); 
+    color: var(--story-color);
     font-size: 17px;
     font-family: 'Open Sans', sans-serif;
     padding: 15px;
@@ -44,7 +44,7 @@
     border: 1px solid var(--brand-color);
     text-decoration: none;
     color: var(--ui-dark);
-    text-align: center;  
+    text-align: center;
     height: 55px;
     width: 187px;
     font-weight: bold;
@@ -65,11 +65,10 @@
     width: 100%;
     height: 192px;
     text-align: start;
-    float:left;
+    float: left;
     margin: 0 10px 10px 0;
     block-size: 192px;
     overflow: hidden;
-    
 }
 
 @media (min-width: 768px) {
@@ -86,5 +85,3 @@
         flex-direction: row;
     }
 }
-
-
