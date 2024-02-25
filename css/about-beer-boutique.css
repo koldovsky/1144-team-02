@@ -68,7 +68,8 @@
     float:left;
     margin: 0 10px 10px 0;
     block-size: 192px;
-    overflow: auto;
+    overflow: hidden;
+    
 }
 
 @media (min-width: 768px) {
