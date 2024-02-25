@@ -56,10 +56,6 @@
     padding: 12px 24px;
 }
 
-.about-beer-boutique__button:hover {
-    text-decoration: underline;
-}
-
 .about-beer-boutique__img {
     font-weight: 400px;
     width: 100%;
@@ -69,7 +65,7 @@
     margin: 0 10px 10px 0;
     block-size: 192px;
     overflow: hidden;
-    
+
 }
 
 @media (min-width: 768px) {
