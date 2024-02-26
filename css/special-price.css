@@ -1,120 +1,118 @@
 .special-price {
-    background-image: linear-gradient(#111111, #111111),
-        url("../img/background-fridaymenu.png");
-    background-blend-mode: saturation;
-    background-attachment: fixed;
-    background-size: cover;
-    scroll-behavior: smooth;
-    height: 100%;
-
+  background-image: linear-gradient(#111111, #111111),
+    url("../img/background-fridaymenu.png");
+  background-blend-mode: saturation;
+  background-attachment: fixed;
+  background-size: cover;
+  scroll-behavior: smooth;
+  height: 100%;
 }
 
 .special-price__container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    min-height: 900px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 900px;
 
-
-    @media (min-width: 768px) {
-        flex-direction: row;
-    }
+  @media (min-width: 768px) {
+    flex-direction: row;
+  }
 }
 
 .special-price__title {
-    color: var(--special-price-color);
-    font-size: 28px;
-    font-family: 'Shadows Into Light', cursive;
-    text-align: center;
-    margin-bottom: 10px;
+  color: var(--special-price-color);
+  font-size: 28px;
+  font-family: "Shadows Into Light", cursive;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .special-price__subtitle {
-    color: var(--name-color);
-    font-size: 62px;
-    font-family: 'Teko', sans-serif;
-    text-align: center;
-    margin-bottom: 10px;
+  color: var(--name-color);
+  font-size: 62px;
+  font-family: "Teko", sans-serif;
+  text-align: center;
+  margin-bottom: 10px;
 }
 
 .special-price__menu {
-    background-color: rgba(0, 0, 0, 0.7);
-    padding: 40px;
-    min-height: 600px;
-    max-width: 550px;
-    margin: 15px;
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 40px;
+  min-height: 600px;
+  max-width: 550px;
+  margin: 15px;
 }
 
 .special-price__menu-list-items {
-    display: flex;
-    /* align-items: center; */
-    /* justify-content: center; */
-    flex-direction: column;
-    gap: 30px;
+  display: flex;
+  /* align-items: center; */
+  /* justify-content: center; */
+  flex-direction: column;
+  gap: 30px;
 }
 
 .special-price__menu-list-item {
-    display: flex;
-    gap: 30px;
+  display: flex;
+  gap: 30px;
 }
 
 .special-price__menu-list-content {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .special-price__menu-list-name-price {
-    display: flex;
+  display: flex;
 }
 
 .special-price__menu-list-line {
-    width: 100%;
-    height: 1px;
-    min-width: 10px;
-    margin: 18px 0 0 0;
-    -webkit-box-flex: 1;
-    -webkit-flex: 1 1;
-    -ms-flex: 1 1;
-    flex: 1 1;
-    background: white;
-    opacity: .2;
-    @media (min-width: 768px) {
-        margin: 27px 0 0 0;;
-    }
+  width: 100%;
+  height: 1px;
+  min-width: 10px;
+  margin: 18px 0 0 0;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 1;
+  -ms-flex: 1 1;
+  flex: 1 1;
+  background: white;
+  opacity: 0.2;
+  @media (min-width: 768px) {
+    margin: 27px 0 0 0;
+  }
 }
 
 .special-price__menu-list-name {
-    color: var(--name-color);
-    font-size: 23px;
-    font-family: Teko, sans-serif;
-    @media (min-width: 768px) {
-        font-size: 36px;
-    }
+  color: var(--name-color);
+  font-size: 23px;
+  font-family: Teko, sans-serif;
+  @media (min-width: 768px) {
+    font-size: 36px;
+  }
 }
 
 .special-price__menu-list-price {
-    color: var(--price-color);
-    font-size: 23px;
-    font-family: Teko, sans-serif;
-    @media (min-width: 768px) {
-        font-size: 36px;
-    }
+  color: var(--price-color);
+  font-size: 23px;
+  font-family: Teko, sans-serif;
+  @media (min-width: 768px) {
+    font-size: 36px;
+  }
 }
 
 .special-price__menu-list-description {
-    color: var(--description-color);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
+  color: var(--description-color);
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
 }
 
 .special-price__menu-list-image {
-    max-width: 70px;
-    max-height: 70px;
-    border-radius: 50%;
-    margin: 10px;
+  max-width: 70px;
+  max-height: 70px;
+  border-radius: 50%;
+  margin: 10px;
 }
 
 .special-price__image-relax {
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 500px;
 }

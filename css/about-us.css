@@ -1,56 +1,52 @@
 .about-beer-boutique_main {
-    background-color: var(--background-color);
-    color: var(--text-light);
-    text-align: center;
-    padding: 0 30px 120px;
+  background-color: var(--background-color);
+  color: var(--text-light);
+  text-align: center;
+  padding: 0 30px 120px;
 }
 
 .about_us__header {
-    background-color: var(--brand-color);
-    background-image: url(../../img/title-page-about-us.webp);
-    background-position-y: 56%;
-    height: 110px;
+  background-color: var(--brand-color);
+  background-image: url(../../img/title-page-about-us.webp);
+  background-position-y: 56%;
+  height: 110px;
 }
 
 .about_us__header-title {
-    font-family: Teko, sans-serif;
-    font-size: 40px;
-    text-align: center;
-    padding: 25px;
+  font-family: Teko, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  padding: 25px;
 }
 
-
-
 .about-beer-boutique_title {
-    color: var(--brand-color);
-    font-family: 'Shadows Into Light', undefined;
-    font-size: 14px;
-    text-align: left;
-    padding: 15px;
+  color: var(--brand-color);
+  font-family: "Shadows Into Light", undefined;
+  font-size: 14px;
+  text-align: left;
+  padding: 15px;
 }
 
 .about-beer-boutique_subtitle {
-    color: var(--text-light);
-    font-family: Teko, sans-serif;
-    font-size: 40px;
-    text-align: left;
-    
+  color: var(--text-light);
+  font-family: Teko, sans-serif;
+  font-size: 40px;
+  text-align: left;
 }
 
 .about-beer-boutique_description {
-    color: var(--description-color);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 19px;
-    text-align: left;
-    line-height: 27px;
-    padding: 20px 5px 20px 5px;
+  color: var(--description-color);
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  text-align: left;
+  line-height: 27px;
+  padding: 20px 5px 20px 5px;
 }
 
 .about-beer-boutique__text {
-    color: var(--story-color);
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-    line-height: 25px;
-    text-align: left;
-    
+  color: var(--story-color);
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  line-height: 25px;
+  text-align: left;
 }

@@ -110,8 +110,8 @@
   }
 }
 
- @media (min-width: 992px) {
-    .table-reserve__entry {
+@media (min-width: 992px) {
+  .table-reserve__entry {
     font-size: 28px;
   }
 

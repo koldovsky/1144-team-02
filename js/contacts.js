@@ -1,5 +1,5 @@
 "use strict";
 
-document.addEventListener('partialsLoaded',()=>{
-    import("./header.js");
-})
+document.addEventListener("partialsLoaded", () => {
+  import("./header.js");
+});
