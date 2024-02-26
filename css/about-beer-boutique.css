@@ -68,7 +68,7 @@
 
 @media (min-width: 768px) {
   .about-beer-boutique__img {
-    background-image: url(../index.about-beer-boutique.partial.html);
+    background-image: url(../img/about-us.webp);
     display: flex;
     background-size: cover;
     background-position: 50% 50%;

@@ -7,7 +7,7 @@
 
 .about_us__header {
   background-color: var(--brand-color);
-  background-image: url(../../img/title-page-about-us.webp);
+  background-image: url(../img/title-page-about-us.webp);
   background-position-y: 56%;
   height: 110px;
 }
