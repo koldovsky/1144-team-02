@@ -17,8 +17,7 @@
 }
 
 .table-reserve__video {
-  position: relative;
-  padding-bottom: 100vh;
+  min-height: 100vh;
 }
 
 .table-reserve__video-media {
@@ -33,15 +32,16 @@
 
 .table-reserve__content {
   display: flex;
+  justify-content: flex-end;
   flex-direction: row;
-  position: absolute;
+  position: relative;
   width: auto;
   height: 100%;
   top: 0;
-  left: 0;
   z-index: 3;
   color: var(--default-color);
-  margin: 0 auto;
+  margin-bottom: 250px;
+  margin-top: -80vh;
   padding: 0 24px;
 }
 
