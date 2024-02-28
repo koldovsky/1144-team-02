@@ -1,6 +1,6 @@
 .testimonials {
   background-color: var(--background-color);
-  padding: 25px;
+  padding: 50px;
 }
 
 .testimonials__header {
@@ -9,6 +9,7 @@
   font-family: "Shadows Into Light", undefined;
   padding: 30px;
   text-align: center;
+  padding-top: 100px;
 }
 
 .testimonials__subtitle {
@@ -31,6 +32,8 @@
 .testimonials__container {
   display: grid;
   gap: 5px;
+  grid-template-columns: 1fr;
+  margin-bottom: 50px;
 }
 
 .testimonials__client-name {
@@ -77,26 +80,19 @@
   gap: 5px;
 }
 
+.testimonials__container-clients {
+  box-sizing: border-box;
+  position: relative;
+  text-align: center;
+  
+}
+
 @media (min-widht: 768px) {
   .testimonials__container {
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
+    
   }
 
-  .testimonials__client-name {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
-  .testimonials__client-glance {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
-  .testimonials__client-glance-date {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
-  .testimonials__container-image {
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr;
-  }
+  
 }

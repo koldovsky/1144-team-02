@@ -64,7 +64,8 @@
   float: left;
   margin: 0 10px 10px 0;
   overflow: hidden;
-    
+  display: flex;
+  justify-content: center;
 }
 
 @media (min-width: 768px) {
