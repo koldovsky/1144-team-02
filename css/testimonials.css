@@ -7,7 +7,7 @@
   color: var(--brand-color);
   font-size: 14px;
   font-family: "Shadows Into Light", undefined;
-  padding: 30px;
+  padding: 60px 10px 30px 10px;
   text-align: center;
   padding-top: 100px;
 }
@@ -32,8 +32,7 @@
 .testimonials__container {
   display: grid;
   gap: 5px;
-  grid-template-columns: 1fr;
-  margin-bottom: 50px;
+  padding: 50px 10px 50px 10px;
 }
 
 .testimonials__client-name {
@@ -42,7 +41,7 @@
   font-family: "Teko", sans-serif;
   padding: 15px;
   text-align: center;
-  display: grid;
+  
   gap: 5px;
 }
 
@@ -53,7 +52,7 @@
   padding: 15px;
   text-align: center;
   line-height: 25px;
-  display: grid;
+  
   gap: 5px;
 }
 .testimonials__client-glance-date {
@@ -62,7 +61,7 @@
   font-family: "Open Sans", sans-serif;
   padding: 15px;
   text-align: center;
-  display: grid;
+  
   gap: 5px;
 }
 
@@ -72,26 +71,32 @@
   border-radius: 50%;
   margin: 10px;
   text-align: center;
-  flex-direction: row;
+  display: grid;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  display: grid;
+  
   gap: 5px;
 }
 
 .testimonials__container-clients {
   box-sizing: border-box;
-  position: relative;
-  text-align: center;
+  padding: 65px 0;
   
 }
 
-@media (min-widht: 768px) {
+@media (min-width: 768px) {
   .testimonials__container {
-    display: grid;
+    
     grid-template-columns: 1fr 1fr;
     
+  }
+  .testimonials__container-clients {
+    padding: 0 40px;
+
+  }
+  .testimonials__container-img {
+    grid-template-columns: 1fr 1fr;
   }
 
   
