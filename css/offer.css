@@ -1,6 +1,6 @@
-*{
+/**{
   outline: 1px solid red;
-}
+}*/
 
 .offer{
   background-image: url(../img/main-background.png);
@@ -57,6 +57,7 @@
 .assortment__item-icon {
   max-width: 70px;
   max-height: 70px;
+  block-size: 70px;
 }
 
 @media (min-width: 768px) {
