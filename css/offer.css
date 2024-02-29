@@ -7,32 +7,51 @@
   color: var(--default-color);
   scroll-behavior: smooth;
   height: 100%;
+  padding: 60px 10px 65px;
 }
 
 .offer__container {
-  padding: 0 15px;
   display: flex;
+  align-items: self-start;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  margin: 0 10px;
 }
 
-.offer__title-declaration{
+.offer__entry {
+  padding: 0 15px;
+}
+
+.offer__entry-title{
   font-family: "Shadows Into Light", undefined;
+  color: var(--offer-entry-title);
   font-size: 14px;
 }
 
-.offer__title-description{
+.offer__entry-description{
   font-family: "Teko", sans-serif;
+  margin: 20px 0;
+  font-size: 40px;
+}
+
+.offer__entry-extended-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  color: var(--table-reserve-text-color);
+  text-align: left;
+  margin-top: 35px;
+  line-height: 27.93px;
+}
+
+.offer__entry-link-wrapper {
+  margin: 35px 0 0;
 }
 
 .yellow_word {
   color: var(--offer-word-color);
 }
 
-.offer__title-link {
+.offer__entry-link {
   display: block;
-  margin-top: 35px;
   cursor: pointer;
   opacity: 1;
   font-family: "Open Sans", sans-serif;
@@ -41,26 +60,53 @@
   background-color: var(--bottom-reserve-background-color);
   color: var(--reservation-button-text-color);
   padding: 21px 40px;
-  width: 235px;
+  width: 165px;
   text-align: center;
-  margin: 10px
 }
 
 .offer__title-link:hover {
   opacity: 0.9;
 }
 
+.assortment__wrapper {
+  margin-top: 30px;
+}
+
 .assortment__item {
   display: flex;
+  padding: 20px 7.5px;
+}
+
+.assortment__item-icon-wrapper {
+  max-width: 70px;
+  max-height: 70px;
+  display: flex;
+  margin: 0 7.5px;
 }
 
 .assortment__item-icon {
-  max-width: 70px;
-  max-height: 70px;
-  block-size: 70px;
+  display: block;
+  height: 100%;
+  max-width: 100%;
+  margin: auto;
 }
 
 @media (min-width: 768px) {
   .offer__container {
+    align-items: center;
+    margin: 0 auto;
+  }
+  .offer__entry {
+    padding: 0 15px;
+    align-self: baseline;
+  }
+  .assortment__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 992px) {
+  .offer__container {
     flex-direction: row;
   }
+}
