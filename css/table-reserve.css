@@ -81,8 +81,8 @@
   font-family: "Open Sans", sans-serif;
   font-size: 13.2px;
   font-weight: bold;
-  background-color: var(--botton-reserve-background-color);
-  color: var(--reservstion-button-text-color);
+  background-color: var(--bottom-reserve-background-color);
+  color: var(--reservation-button-text-color);
   padding: 25px 55px;
   width: 235px;
   text-align: center;

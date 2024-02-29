@@ -1,0 +1,65 @@
+*{
+  outline: 1px solid red;
+}
+
+.offer{
+  background-image: url(../img/main-background.png);
+  color: var(--default-color);
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.offer__container {
+  padding: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.offer__title-declaration{
+  font-family: "Shadows Into Light", undefined;
+  font-size: 14px;
+}
+
+.offer__title-description{
+  font-family: "Teko", sans-serif;
+}
+
+.yellow_word {
+  color: var(--offer-word-color);
+}
+
+.offer__title-link {
+  display: block;
+  margin-top: 35px;
+  cursor: pointer;
+  opacity: 1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13.2px;
+  font-weight: bold;
+  background-color: var(--bottom-reserve-background-color);
+  color: var(--reservation-button-text-color);
+  padding: 21px 40px;
+  width: 235px;
+  text-align: center;
+  margin: 10px
+}
+
+.offer__title-link:hover {
+  opacity: 0.9;
+}
+
+.assortment__item {
+  display: flex;
+}
+
+.assortment__item-icon {
+  max-width: 70px;
+  max-height: 70px;
+}
+
+@media (min-width: 768px) {
+  .offer__container {
+    flex-direction: row;
+  }
