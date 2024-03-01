@@ -25,6 +25,7 @@
   --field-outline-color: #3b99fc;
   --reservation-field-color: rgba(255, 255, 255, 0.04);
   --reservation-field-text-color: rgba(255, 255, 255, 0.54);
+  --table-reserve-after: rgba(0, 0, 0, 0.4);
   --table-reserve-text-color: #d0d0d0fc;
   --reservation-button-text-color: #111111;
   --slides-number: 5;
@@ -33,6 +34,6 @@
   --animation-time: 10s;
   --offer-word-color: #ffc123;
   --offer-entry-title: #ffc123;
-  --offer-entry-description-color: #CCCCCC;
+  --offer-entry-description-color: #cccccc;
   --offer-assortment-item-description: #9d9d9d;
 }

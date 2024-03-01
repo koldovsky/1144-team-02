@@ -9,7 +9,7 @@
   display: block;
   width: 100%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: var(--table-reserve-after);
   position: absolute;
   top: 0;
   left: 0;
@@ -107,6 +107,7 @@
     width: 99%;
     font-size: 95px;
   }
+
   .table-reserve__text {
     width: 85%;
   }

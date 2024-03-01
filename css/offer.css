@@ -2,7 +2,7 @@
   outline: 1px solid red;
 }*/
 
-.offer{
+.offer {
   background-image: url(../img/main-background.png);
   color: var(--default-color);
   scroll-behavior: smooth;
@@ -20,13 +20,13 @@
   padding: 0 15px;
 }
 
-.offer__entry-title{
+.offer__entry-title {
   font-family: "Shadows Into Light", undefined;
   color: var(--offer-entry-title);
   font-size: 14px;
 }
 
-.offer__entry-description{
+.offer__entry-description {
   font-family: "Teko", sans-serif;
   margin: 20px 0;
   font-size: 40px;
@@ -107,16 +107,22 @@
 }
 
 .margin-item-special {
-  margin-top: 60px;
+  margin-top: 50px;
+}
+
+.margin-icon-special {
+  margin: 0 10px;
 }
 
 @media (min-width: 767px) {
-  .offer__entry-title{
+  .offer__entry-title {
     font-size: 28px;
   }
-  .offer__entry-description{
+
+  .offer__entry-description {
     font-size: 62px;
   }
+
   .assortment__item-title {
     font-size: 38px;
   }
@@ -127,44 +133,56 @@
     align-items: center;
     margin: 0 auto;
   }
+
   .offer__entry {
     padding: 0 15px;
     align-self: baseline;
   }
+
   .assortment__wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+
   .margin-item-special {
     margin: 0;
   }
-  .offer__entry-title{
+
+  .offer__entry-title {
     font-size: 21px;
   }
-  .offer__entry-description{
+
+  .offer__entry-description {
     font-size: 51px;
   }
+
   .assortment__item-title {
     font-size: 32px;
   }
+
   .assortment__item-icon {
     max-width: 100px;
     height: 100px;
   }
 }
+
 @media (min-width: 992px) {
   .offer__container {
     flex-direction: row;
   }
+
   .offer__entry {
     align-self: end;
   }
-  .offer__entry-title{
+
+  .offer__entry-title {
     font-size: 28px;
   }
-  .offer__entry-description{
+
+  .offer__entry-description {
     font-size: 62px;
   }
+
   .assortment__item-title {
     font-size: 38px;
   }
