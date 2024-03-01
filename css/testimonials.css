@@ -1,6 +1,6 @@
 .testimonials {
   background-color: var(--background-color);
-  padding: 50px;
+  
 }
 
 .testimonials__header {
@@ -81,7 +81,11 @@
 
 .testimonials__container-clients {
   box-sizing: border-box;
-  padding: 65px 0;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 25px;
   
 }
 
