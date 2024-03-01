@@ -50,6 +50,13 @@
   font-size: 17px;
 }
 
+.contacts__form-text-clock {
+  text-decoration: none;
+  font-family: "Teko", sans-serif;
+  font-size: 26px;
+  color: var(--clock-text-color);
+}
+
 .contacts__form-text-title-info {
   color: var(--story-color);
   text-decoration: none;
@@ -172,7 +179,7 @@
     width: 40px;
     height: 40px;
   }
-  
+
   .contacts__forms-field {
     flex-direction: row;
     align-items: flex-start;
