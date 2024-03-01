@@ -53,15 +53,18 @@
 }
 
 .menu__image-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   position: absolute;
-  padding: 25% 30px;
+  padding: auto 30px;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 
   background-color: rgba(0, 0, 0, 55%);
-  overflow-y: scroll;
 }
 
 .menu__image-title {
@@ -72,6 +75,7 @@
 
 .menu__image-description {
   margin-bottom: 25px;
+  padding: 0 20px;
   font-size: 17px;
 }
 
@@ -106,10 +110,6 @@
   }
   .menu__image-card {
     padding: 30px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
   }
   .menu__image-title {
     font-size: 46px;
@@ -125,29 +125,35 @@
   }
   .menu__image-container {
     width: 30%;
+
+    .menu__image-card {
+      padding: 50px 20px;
+      justify-content: start;
+      background-color: rgba(0, 0, 0, 0%);
+      transition: 0.1s;
+    }
+    .menu__image-title {
+      font-size: 54px;
+      margin-bottom: 30px;
+    }
     .menu__image-description,
     .menu__link {
-      transition: 0.5s;
       display: none;
+      overflow: hidden;
+    }
+    .menu__image-description {
+      padding: 0;
     }
   }
   .menu__image-container:hover {
     .menu__image-description,
     .menu__link {
-      display: block;
+      display: flex;
+      overflow: auto;
     }
-  }
-  .menu__image-card {
-    padding-top: 120px;
-    justify-content: flex-start;
-    background-color: rgba(0, 0, 0, 0%);
-    transition: 0.3s;
-  }
-  .menu__image-card:hover {
-    background-color: rgba(0, 0, 0, 55%);
-  }
-  .menu__image-title {
-    font-size: 54px;
-    margin-bottom: 60px;
+    .menu__image-card {
+      justify-content: space-between;
+      background-color: rgba(0, 0, 0, 55%);
+    }
   }
 }
