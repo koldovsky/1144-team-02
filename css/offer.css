@@ -1,13 +1,9 @@
-/**{
-  outline: 1px solid red;
-}*/
-
 .offer {
   background-image: url(../img/main-background.png);
   color: var(--default-color);
   scroll-behavior: smooth;
   height: 100%;
-  padding: 60px 10px 65px;
+  padding: 40px 10px 65px;
 }
 
 .offer__container {
