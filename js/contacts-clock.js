@@ -1,7 +1,7 @@
 const clockContainer = document.querySelector(".contacts__clock");
 const textOutput = document.querySelector(".uotput__text");
 const startWork = "15:59:59";
-const endWork = "01:59:59";
+const endWork = "02:00:00";
 
 function updateClock() {
   const currentTime = new Date().toLocaleTimeString("uk");
