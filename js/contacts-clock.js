@@ -1,6 +1,6 @@
 const clockContainer = document.querySelector(".contacts__clock");
 const textOutput = document.querySelector(".uotput__text");
-const startWork = "15:59:00";
+const startWork = "15:59:59";
 const endWork = "02:00:00";
 
 function updateClock() {
@@ -10,7 +10,8 @@ function updateClock() {
     textOutput.innerText = "WE ARE OPEN NOW";
     textOutput.style.color = "#ffc123";
   } else {
-    textOutput.innerText = "SORRY, WE ARE CLOSED";
+    textOutput.innerText = `SORRY, WE ARE
+                            CLOSED NOW`;
     textOutput.style.color = "red";
   }
 }
