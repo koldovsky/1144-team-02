@@ -1,0 +1,34 @@
+.about-us-end {
+    background-color: var(--background-color);
+    color: var(--text-light);
+    text-align: center;
+    padding: 30px 15px 120px;
+  }
+
+  .about_us-end__header {
+    background-color: var(--brand-color);
+    background-image: url(../img/title-page-about-us.webp);
+    background-position-y: 56%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: var(--ui-dark);
+    padding: 20px;
+  }
+  .about_us-end__header-title {
+    font-family: Teko, sans-serif;
+    font-size: 32px;
+    text-align: center;
+    padding: 40px;
+  }
+  .about_us-end__header-text {
+    font-family: Teko, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px;
+  }
+
+  .about-us-beer-end__story {
+    padding: 30px 5px;
+  }

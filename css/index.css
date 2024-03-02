@@ -16,11 +16,12 @@
 @import "./latest-post.css";
 @import "./beer-logo-carousel.css";
 @import "./burger.css";
-@import "about-beer-boutique.css";
-@import "testimonials.css";
+@import "./about-beer-boutique.css";
+@import "./testimonials.css";
 @import "./top-choice.css";
 @import "./full-menu.css";
 @import "./table-reserve.css";
 @import "./our-team.css";
 @import "./footer.css";
 @import "./offer.css";
+@import "./about-us-end.css"
