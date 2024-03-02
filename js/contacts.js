@@ -1,4 +1,4 @@
 document.addEventListener("partialsLoaded", () => {
   import("./header.js");
-  import("./contacts-form-fields.js")
+  import("./contacts-clock.js");
 });
