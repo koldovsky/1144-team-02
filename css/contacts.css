@@ -15,12 +15,13 @@
 
 .contacts__forms {
   background-image: url(../img/main-background.png);
+  padding: 10px 0;
 }
 
 .contacts__form {
   display: flex;
   flex-direction: column;
-  padding: 80px 10px 50px 10px;
+  padding: 80px 24px 50px;
 }
 
 .contacts__form-information {
@@ -96,8 +97,25 @@
   margin: 10px 24px 0;
   align-items: center;
   justify-content: center;
+  padding: 10px 24px;
+  gap: 40px;
+}
+
+.notification {
+  margin-top: 20px;
+  color: var(--contacts-form-text-color);
+  font-size: 16px;
+  text-align: center;
+  border: 1px solid var(--field-outline-color);
   padding: 10px;
-  gap: 10px;
+  border-radius: 20px;
+  background-color: #80735273;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1000;
 }
 
 .contacts__forms-map {
@@ -135,17 +153,6 @@
   width: 70%;
 }
 
-.contacts__forms-reservation-field {
-  background-color: var(--reservation-field-color);
-  border: 0;
-  outline-color: var(--field-outline-color);
-  font-family: "Open Sans", sans-serif;
-  margin-top: 25px;
-  padding: 21px 40px;
-  color: var(--reservation-field-text-color);
-  border-radius: 10px;
-}
-
 .contacts__forms-reservation-submit {
   font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
@@ -163,11 +170,32 @@
   opacity: 0.9;
 }
 
+.contacts__forms-reservation-field {
+  background-color: var(--reservation-field-color);
+  border: 0;
+  outline-color: var(--field-outline-color);
+  font-family: "Open Sans", sans-serif;
+  margin-top: 25px;
+  padding: 21px 40px;
+  color: var(--reservation-field-text-color);
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.contacts__forms-reservation-field::placeholder {
+  font-family: "Open Sans", sans-serif;
+  color: var(--reservation-field-text-color);
+}
+
 @media (min-width: 768px) {
+  .contacts__forms {
+    padding-bottom: 25px 0 110px;
+  }
+
   .contacts__form {
     flex-direction: row;
-    justify-content: space-around;
-    flex: 1;
+    justify-content: space-between;
+    padding: 80px 32px 50px;
   }
 
   .contacts__form-image {
@@ -183,5 +211,20 @@
   .contacts__forms-field {
     flex-direction: row;
     align-items: flex-start;
+    padding: 10px 32px;
+    gap: 10px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contacts__forms {
+    padding: 40px 0 130px;
+  }
+
+  .contacts__form {
+    padding: 80px 15px 50px;
+  }
+  .contacts__forms-field {
+    padding: 10px 15px;
   }
 }
