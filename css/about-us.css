@@ -1,8 +1,8 @@
-.about-beer-boutique_main {
+.about-beer-boutique {
   background-color: var(--background-color);
   color: var(--text-light);
   text-align: center;
-  padding: 0 30px 120px;
+  padding: 30px 15px 120px;
 }
 
 .about_us__header {
@@ -10,6 +10,10 @@
   background-image: url(../img/title-page-about-us.webp);
   background-position-y: 56%;
   height: 110px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: var(--ui-dark);
 }
 
 .about_us__header-title {
@@ -19,22 +23,34 @@
   padding: 25px;
 }
 
-.about-beer-boutique_title {
+.about-us-beer-boutique__text {
+  display: block;
+  margin: 0 auto;
+
+}
+
+.about-us-beer-boutique__img {
+  width: 100%;
+  background-size: cover;
+  padding: 10px;
+  
+}
+.about-us-beer-boutique_title {
   color: var(--brand-color);
   font-family: "Shadows Into Light", undefined;
-  font-size: 14px;
+  font-size: 22px;
   text-align: left;
   padding: 15px;
 }
 
-.about-beer-boutique_subtitle {
+.about-us-beer-boutique_subtitle {
   color: var(--text-light);
   font-family: Teko, sans-serif;
   font-size: 40px;
   text-align: left;
 }
 
-.about-beer-boutique_description {
+.about-us-beer-boutique_description {
   color: var(--description-color);
   font-family: "Open Sans", sans-serif;
   font-size: 19px;
@@ -43,10 +59,28 @@
   padding: 20px 5px 20px 5px;
 }
 
-.about-beer-boutique__text {
+.about-us-beer-boutique__text {
   color: var(--story-color);
   font-family: "Open Sans", sans-serif;
   font-size: 17px;
   line-height: 25px;
   text-align: left;
+}
+
+@media (min-width: 768px) {
+
+  .about-us-beer-boutique__story {
+    display: flex;
+    gap: 10px;
+  }
+
+  .about-us-beer-boutique__img {
+    width: 50%;
+    background-size: cover;
+    height: 630px;
+  }
+
+  .about-us-beer-boutique__text {
+    width: 50%;
+  }
 }
