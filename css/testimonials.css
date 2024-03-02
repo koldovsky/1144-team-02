@@ -5,9 +5,9 @@
 
 .testimonials__header {
   color: var(--brand-color);
-  font-size: 14px;
+  font-size: 18px;
   font-family: "Shadows Into Light", undefined;
-  padding: 60px 10px 30px 10px;
+  padding: 40px 10px 20px 10px;
   text-align: center;
   padding-top: 100px;
 }
@@ -75,33 +75,46 @@
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  
   gap: 5px;
 }
 
 .testimonials__container-clients {
-  box-sizing: border-box;
-  padding: 10px;
+  padding: 10px 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 25px;
   
 }
 
 @media (min-width: 768px) {
-  .testimonials__container {
+  .testimonials__container,
+  .testimonials__container-img {
     
     grid-template-columns: 1fr 1fr;
     
   }
   .testimonials__container-clients {
-    padding: 0 40px;
+    padding: 30px 10px;
+    width: 100%;
 
   }
-  .testimonials__container-img {
-    grid-template-columns: 1fr 1fr;
-  }
-
   
+}
+
+@media (min-width: 1110px) {
+
+  .testimonials__subtitle {
+    font-size: 50px;
+  }
+
+  .testimonials__text {
+    font-size: 25px;
+  }
+  .testimonials__client-glance {
+    font-size: 22px;
+  }
+  .testimonials__client-glance-date {
+    font-size: 18px;
+  }
+
 }

@@ -35,6 +35,7 @@
   padding: 10px;
   text-align: center;
 }
+
 .about-us-beer-boutique_title {
   color: var(--brand-color);
   font-family: "Shadows Into Light", undefined;
@@ -78,7 +79,7 @@
   .about-us-beer-boutique__img {
     width: 50%;
     background-size: cover;
-   
+
   }
 
   .about-us-beer-boutique__alltext {
@@ -86,9 +87,9 @@
   }
 
   .about_us__header-title {
-  
+
     font-size: 42px;
-    
+
   }
 }
 
