@@ -1,39 +1,69 @@
 .team {
   background-color: var(--background-color);
+  padding-top: 90px;
+  padding-bottom: 40px;
+  padding-left: 24px;
+  padding-right: 24px
 }
 
 .team__title {
   color: var(--brand-color);
   font-family: "Shadows Into Light";
   font-size: 14px;
+  text-align: center;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .team__subtitle {
   color: var(--text-light);
   font-family: "Teko";
   font-size: 40px;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .team__description {
   color: var(--story-color);
   font-family: "Open Sans";
   font-size: 19px;
+  text-align: center;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+
+.team__members {
+  display: grid;
+  text-align: center;
+}
+
+.team__member {
+  margin-top: 50px;
+}
+
+.team__member-image {
+  height: 320px;
 }
 
 .team__member-name {
   color: var(--name-color);
   font-family: "Teko";
   font-size: 26px;
+  margin-top: 20px
 }
 
 .team__member-role {
   color: var(--brand-color);
   font-family: "Open Sans";
   font-size: 15px;
+  margin-top: 20px
 }
 
 .team__member-description {
   color: var(--story-color);
   font-family: "Open Sans";
   font-size: 17px;
+  margin-top: 20px;
+  line-height: 25px;
 }
