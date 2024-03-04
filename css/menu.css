@@ -130,7 +130,7 @@
       padding: 50px 20px;
       justify-content: start;
       background-color: rgba(0, 0, 0, 0%);
-      transition: 0.1s;
+      transition: all 0.3s;
     }
     .menu__image-title {
       font-size: 54px;
@@ -145,6 +145,7 @@
       padding: 0;
     }
   }
+  
   .menu__image-container:hover {
     .menu__image-description,
     .menu__link {

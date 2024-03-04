@@ -197,8 +197,8 @@
 
 .top-choice__modal {
   position: fixed;
-  height: 100vh;
-  width: 100vw;
+  height: 100%;
+  width: 100%;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.9);
@@ -210,6 +210,7 @@
 }
 
 .top-choice__modalContent {
+  width: 100%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -218,8 +219,8 @@
 }
 
 .top-choice__modalImg {
-  width: 100%;
   max-width: 700px;
+  max-height: 100vh;
 }
 
 .top-choice__modal-close {
