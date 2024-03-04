@@ -8,7 +8,7 @@ function updateClock() {
   clockContainer.innerText = new Date().toLocaleTimeString("en-US");
   if (currentTime > startWork || currentTime < endWork) {
     textOutput.innerText = "WE ARE OPEN NOW";
-    textOutput.style.color = "#ffc123";
+    textOutput.style.color = "#0fbf0f";
   } else {
     textOutput.innerText = `SORRY, WE ARE
                             CLOSED NOW`;

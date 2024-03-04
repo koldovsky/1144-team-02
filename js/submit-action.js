@@ -25,6 +25,12 @@ async function confirmSubmit(input) {
     status.style.opacity = "0";
     status.style.transition = "opacity 1s ease-in-out";
   }, 2000);
+  setTimeout(function () {
+    status.style.display = "none";
+    status.innerText = "";
+    status.style.opacity = "1";
+  }, 3000);
 }
 
 form.addEventListener("submit", confirmSubmit);
+
