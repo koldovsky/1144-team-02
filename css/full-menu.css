@@ -1,12 +1,16 @@
+body {
+  background-image: url(../img/main-background.png);
+}
+
 .full-menu__main {
-  background-color: var(--background-color);
   color: var(--text-light);
   text-align: center;
   padding: 0 30px 80px;
+  width: 100%;
 }
 
 .full-menu__header {
-  background-image: url(../../img/contacts-title-background.png);
+  background-image: url(../img/contacts-title-background.png);
   background-position-y: 56%;
   height: 110px;
 }
@@ -83,6 +87,7 @@
 .full-menu__image {
   display: grid;
   margin: auto;
+  width: 100%;
 }
 
 .full-menu__carousel-container--1,
@@ -97,6 +102,7 @@
   width: 100%;
   float: left;
   display: block;
+  padding: 0 30px;
 }
 
 .full-menu__button-prev--1,
@@ -107,8 +113,8 @@
   background: none;
   border: none;
   cursor: pointer;
-  padding: 10px;
   height: 100%;
+  padding: 0;
 }
 
 .full-menu__button-prev--1,
@@ -117,7 +123,6 @@
   left: 0;
   &:hover {
     transform: scale(-1.2);
-    background-color: rgba(0, 0, 0, 0.6);
     transition: all 0.6s;
   }
 }
@@ -127,7 +132,6 @@
   right: 0;
   &:hover {
     transform: scale(1.2);
-    background-color: rgba(0, 0, 0, 0.6);
     transition: all 0.6s;
   }
 }
@@ -160,9 +164,7 @@
   .full-menu__carousel-container--1,
   .full-menu__carousel-container--2 {
     display: flex;
-  }
-  .full-menu__list-container {
-    margin-right: 25px;
+    height: 562px;
   }
 }
 
@@ -184,5 +186,9 @@
   }
   .full-menu__list-underline {
     height: 32px;
+  }
+  .full-menu__carousel-container--1,
+  .full-menu__carousel-container--2 {
+    height: 540px;
   }
 }

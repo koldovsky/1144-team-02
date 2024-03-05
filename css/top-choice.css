@@ -51,10 +51,6 @@
   background-size: cover;
   cursor: pointer;
   transition: 0.3s all ease;
-
-  &:hover {
-    transform: scale(1.03);
-  }
 }
 
 .img--1 {

@@ -19,6 +19,23 @@ document.addEventListener("DOMContentLoaded", function () {
     ".full-menu__button-next--2",
     1
   );
+  
+  window.addEventListener("resize", function () {
+    initializeInfiniteCarousel(
+      ".full-menu__carousel-container--1",
+      ".full-menu__list-container",
+      ".full-menu__button-prev--1",
+      ".full-menu__button-next--1",
+      1
+    );
+    initializeInfiniteCarousel(
+      ".full-menu__carousel-container--2",
+      ".full-menu__list-container",
+      ".full-menu__button-prev--2",
+      ".full-menu__button-next--2",
+      1
+    );
+  });
 });
 
 function initializeInfiniteCarousel(
@@ -40,6 +57,8 @@ function initializeInfiniteCarousel(
       item.style.display = "none";
       if (window.innerWidth >= 768) {
         itemsPerPage = 2;
+      } else {
+        itemsPerPage = 1;
       }
     });
 
@@ -63,3 +82,7 @@ function initializeInfiniteCarousel(
 
   showItems();
 }
+
+window.addEventListener('resize', () => {
+  initializeInfiniteCarousel();
+});
