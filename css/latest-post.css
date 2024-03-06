@@ -1,12 +1,10 @@
 .latest-posts {
   width: 100%;
-  margin: 0;
   padding-top: 60px;
   padding-bottom: 130px;
   box-sizing: border-box;
   display: block;
   flex-basis: 100%;
-  z-index: 1;
   background-image: url(../img/background-body.png);
   color: var(--description-color);
 }

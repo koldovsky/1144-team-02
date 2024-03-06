@@ -33,7 +33,7 @@ prevSlide.addEventListener("click", () => {
     currentSlide = maxSlide - 1;
   } else {
     if (currentSlide === 0) {
-      currentSlide = maxSlide - 2;
+      currentSlide = maxSlide - 1;
     } else {
         currentSlide--;
       }
