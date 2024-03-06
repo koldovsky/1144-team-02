@@ -144,7 +144,7 @@
   font-weight: bold;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 768px) {
   .latest-posts {
     width: 100%;
     padding-top: 60px;
