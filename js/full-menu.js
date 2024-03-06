@@ -82,7 +82,3 @@ function initializeInfiniteCarousel(
 
   showItems();
 }
-
-window.addEventListener('resize', () => {
-  initializeInfiniteCarousel();
-});
