@@ -91,6 +91,7 @@
     text-decoration: none;
     cursor: pointer;
   }
-  .input {
+  .modal-content alert {
+    color: rgb(210, 131, 27);
 
   }
