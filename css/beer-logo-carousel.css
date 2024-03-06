@@ -56,7 +56,7 @@
   z-index: 1;
   cursor: pointer;
   color: var(--brand-color);
-  background-color: var(--reservstion-button-text-color);
+  background-color: var(--reservation-button-text-color);
   font-size: 18px;
 }
 
