@@ -15,9 +15,25 @@
             alt="Clinking together beer
           glasses"/>
         </div>
-        <div class="about-us-end__conteiner-link">
-            <a href="contacts.html" 
-            class="about-us-end__link">JOIN OUR TEAM</a>
-        </div>
     </div>
+        <div class="about-us-end__conteiner-link">
+            <a href="#" id="joinTeamBtn" class="about-us-end__link">JOIN OUR TEAM</a>
+          </div>
+        
+          <div id="surveyModal" class="modal">
+            <div class="modal-content">
+              <span class="close" onclick="closeModal()">&times;</span>
+              <h2>Join Our Team</h2>
+              <label for="name">Name:</label><br>
+              <input type="text" id="name"><br>
+              <label for="phone">Phone:</label><br>
+              <input type="text" id="phone"><br>
+              <label for="email">Email:</label><br>
+              <input type="email" id="email"><br>
+              <label for="workingPosition">working position:</label><br>
+              <input type="workingPosition" id="workingPosition"><br>
+              <button onclick="submitForm()">Submit</button>
+            </div>
+          </div>
+    
 </section>

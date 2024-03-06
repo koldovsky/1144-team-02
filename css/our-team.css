@@ -1,51 +1,46 @@
 .team {
-  background-color: var(--background-color);
   padding-top: 90px;
   padding-bottom: 40px;
-  padding-left: 24px;
-  padding-right: 24px
+  line-height: 25px;
+  text-align: center;
+}
+
+.team__title,
+.team__subtitle {
+  margin-bottom: 30px;
 }
 
 .team__title {
   color: var(--brand-color);
   font-family: "Shadows Into Light";
   font-size: 14px;
-  text-align: center;
-  padding-left: 15px;
-  padding-right: 15px;
 }
 
 .team__subtitle {
   color: var(--text-light);
-  font-family: "Teko";
+  font-family: 'Teko', sans-serif;
   font-size: 40px;
-  text-align: center;
-  margin-top: 20px;
+  line-height: 40px;
 }
 
 .team__description {
-  color: var(--story-color);
-  font-family: "Open Sans";
+  color: var(--description-color);
   font-size: 19px;
   text-align: center;
   margin-top: 20px;
-  line-height: 25px;
 }
 
 
 .team__members {
   display: grid;
-  text-align: center;
+  place-items: center;
 }
 
 .team__member {
-  margin-top: 50px;
+  margin: 20px;
 }
 
-.team__member-image {
-  display: flex;
-  width: 100%;
-}
+.team__member-image {}
 
 .team__member-name {
   color: var(--name-color);
@@ -56,15 +51,53 @@
 
 .team__member-role {
   color: var(--brand-color);
-  font-family: "Open Sans";
-  font-size: 15px;
+  font-size: 14px;
   margin-top: 20px;
 }
 
 .team__member-description {
   color: var(--story-color);
-  font-family: "Open Sans";
   font-size: 17px;
   margin-top: 20px;
-  line-height: 25px;
+
+}
+
+@media (min-width: 768px) {
+
+  .team__members {
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+  .team__subtitle {
+    font-size: 51px;
+  }
+
+  .team__title {
+    font-size: 21px;
+  }
+
+  .team__member-name {
+    font-size: 32px;
+  }
+
+}
+
+@media (min-width: 990px) {
+
+  .team__members {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .team__subtitle {
+    font-size: 62px;
+  }
+
+  .team__title {
+    font-size: 28px;
+  }
+
+  .team__member-name {
+    font-size: 38px;
+  }
 }
