@@ -1,0 +1,82 @@
+.friday-deal {
+  padding: 65px 10px 90px;
+  color: var(--background-color);
+  text-align: center;
+}
+
+.friday-deal-offer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.friday-deal__container {
+  background-image: url(../img/contacts-title-background.png);
+  padding: 51px 47px;
+}
+
+.friday-deal__offer-title {
+  font-family: "Shadows Into Light", undefined;
+  font-size: 14px;
+  color: var(--friday-deal-offer-title-color);
+}
+
+.friday-deal__offer-subtitle {
+  font-family: "Teko", sans-serif;
+  margin-top: 20px;
+  font-size: 62px;
+}
+
+.friday-deal__offer-description {
+  font-family: "Open Sans", sans-serif;
+  font-size: 19px;
+  color: var(--friday-deal-offer-description-color);
+  margin-top: 35px;
+  line-height: 27.93px;
+  font-weight: 500;
+}
+
+.friday-deal__offer-link-wrapper {
+  margin: 35px 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.friday-deal__offer-link {
+  display: block;
+  cursor: pointer;
+  opacity: 1;
+  font-family: "Open Sans", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: var(--background-color);
+  color: var(--default-color);
+  padding: 21px 40px;
+  width: 165px;
+  text-align: center;
+  letter-spacing: 0.6px;
+}
+
+.friday-deal__offer-link:hover {
+  opacity: 0.9;
+}
+
+@media (min-width: 767px) {
+  .friday-deal__offer-title {
+    font-size: 28px;
+  }
+
+  .friday-deal__offer-subtitle {
+    font-size: 128px;
+  }
+
+  .friday-deal__container {
+    padding: 64px 58px;
+  }
+}
+
+@media (min-width: 992px) {
+  .friday-deal__container {
+    padding: 90px 80px;
+  }
+}

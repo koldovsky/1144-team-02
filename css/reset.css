@@ -3,6 +3,10 @@
    License: none (public domain)
 */
 
+:root {
+  scroll-behavior: smooth;
+}
+
 html,
 body,
 div,
@@ -91,6 +95,7 @@ video {
   font: inherit;
   vertical-align: baseline;
 }
+
 article,
 aside,
 details,
@@ -105,17 +110,21 @@ section {
   display: block;
   background-image: url(../img/main-background.png);
 }
+
 body {
   line-height: 1;
 }
+
 ol,
 ul {
   list-style: none;
 }
+
 blockquote,
 q {
   quotes: none;
 }
+
 blockquote:before,
 blockquote:after,
 q:before,
@@ -123,6 +132,7 @@ q:after {
   content: "";
   content: none;
 }
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
