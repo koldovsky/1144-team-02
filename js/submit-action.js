@@ -33,4 +33,3 @@ async function confirmSubmit(input) {
 }
 
 form.addEventListener("submit", confirmSubmit);
-

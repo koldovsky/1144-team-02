@@ -1,39 +1,39 @@
 .about-us-end {
-    background-color: var(--background-color);
-    color: var(--text-light);
-    text-align: center;
-    padding: 30px 15px 50px;
-  }
+  background-color: var(--background-color);
+  color: var(--text-light);
+  text-align: center;
+  padding: 30px 15px 50px;
+}
 
-  .about_us-end__header {
-    background-color: var(--brand-color);
-    background-image: url(../img/title-page-about-us.webp);
-    background-position-y: 56%;
-    height: 110px;
-    display: block;
-    justify-content: center;
-    text-align: left;
-    color: var(--ui-dark);
-    padding: 5px;
-  }
-  .about_us-end__header-title {
-    font-family: Teko, sans-serif;
-    font-size: 28px;
-    text-align: left;
-    padding: 10px;
-  }
-  .about_us-end__header-text {
-    font-family: Teko, sans-serif;
-    font-size: 18px;
-    text-align: left;
-    padding: 10px;
-  }
+.about_us-end__header {
+  background-color: var(--brand-color);
+  background-image: url(../img/title-page-about-us.webp);
+  background-position-y: 56%;
+  height: 110px;
+  display: block;
+  justify-content: center;
+  text-align: left;
+  color: var(--ui-dark);
+  padding: 5px;
+}
+.about_us-end__header-title {
+  font-family: Teko, sans-serif;
+  font-size: 28px;
+  text-align: left;
+  padding: 10px;
+}
+.about_us-end__header-text {
+  font-family: Teko, sans-serif;
+  font-size: 18px;
+  text-align: left;
+  padding: 10px;
+}
 
-  .about-us-end__conteiner-link {
-    padding: 20px;
-  }
+.about-us-end__conteiner-link {
+  padding: 20px;
+}
 
-  .about-us-end__link {
+.about-us-end__link {
   display: block;
   background-color: var(--brand-color);
   border: 1px solid var(--brand-color);
@@ -48,50 +48,48 @@
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   line-height: 25px;
-  
-  }
+}
 
-  .about-us-beer-end__story {
-    padding: 80px 5px;
-  }
+.about-us-beer-end__story {
+  padding: 80px 5px;
+}
 
-  .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 60%;
-    height: 60%;
-    background-color: rgba(0, 0, 0, 0.4);
-  }
-  
-  .modal-content {
-    background-color: #e9b451;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 60%;
-  }
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 60%;
+  height: 60%;
+  background-color: rgba(0, 0, 0, 0.4);
+}
 
-  .modal-content input {
-    max-width: 100%;
-  }
-  
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
-  
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  .modal-content alert {
-    color: rgb(210, 131, 27);
+.modal-content {
+  background-color: #e9b451;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 60%;
+}
 
-  }
+.modal-content input {
+  max-width: 100%;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.modal-content alert {
+  color: rgb(210, 131, 27);
+}

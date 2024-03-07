@@ -35,10 +35,9 @@ prevSlide.addEventListener("click", () => {
     if (currentSlide === 0) {
       currentSlide = maxSlide - 1;
     } else {
-        currentSlide--;
-      }
+      currentSlide--;
     }
-
+  }
 
   slides.forEach((slide, index) => {
     slide.style.transform = `translateX(${100 * (index - currentSlide)}%)`;

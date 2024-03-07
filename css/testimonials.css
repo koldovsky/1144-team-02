@@ -1,6 +1,5 @@
 .testimonials {
   background-color: var(--background-color);
-  
 }
 
 .testimonials__header {
@@ -41,7 +40,7 @@
   font-family: "Teko", sans-serif;
   padding: 15px;
   text-align: center;
-  
+
   gap: 5px;
 }
 
@@ -52,7 +51,7 @@
   padding: 15px;
   text-align: center;
   line-height: 25px;
-  
+
   gap: 5px;
 }
 .testimonials__client-glance-date {
@@ -61,7 +60,7 @@
   font-family: "Open Sans", sans-serif;
   padding: 15px;
   text-align: center;
-  
+
   gap: 5px;
 }
 
@@ -83,26 +82,20 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 
 @media (min-width: 768px) {
   .testimonials__container,
   .testimonials__container-img {
-    
     grid-template-columns: 1fr 1fr;
-    
   }
   .testimonials__container-clients {
     padding: 30px 10px;
     width: 100%;
-
   }
-  
 }
 
 @media (min-width: 1110px) {
-
   .testimonials__subtitle {
     font-size: 50px;
   }
@@ -116,5 +109,4 @@
   .testimonials__client-glance-date {
     font-size: 18px;
   }
-
 }

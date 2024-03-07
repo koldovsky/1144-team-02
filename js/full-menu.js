@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
     ".full-menu__button-next--2",
     1
   );
-  
+
   window.addEventListener("resize", function () {
     initializeInfiniteCarousel(
       ".full-menu__carousel-container--1",
