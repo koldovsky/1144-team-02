@@ -23,5 +23,5 @@ jobs:
       - name: Run HTML Proofer
         run: |
           for file in $(find . -maxdepth 1 -iname "*.html"); do
-            htmlproofer $file --allow_hash_href --alt-ignore
+            htmlproofer $file --disable-external
           done
