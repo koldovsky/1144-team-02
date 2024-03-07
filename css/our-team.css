@@ -18,7 +18,7 @@
 
 .team__subtitle {
   color: var(--text-light);
-  font-family: 'Teko', sans-serif;
+  font-family: "Teko", sans-serif;
   font-size: 40px;
   line-height: 40px;
 }
@@ -30,7 +30,6 @@
   margin-top: 20px;
 }
 
-
 .team__members {
   display: grid;
   place-items: center;
@@ -39,8 +38,6 @@
 .team__member {
   margin: 20px;
 }
-
-.team__member-image {}
 
 .team__member-name {
   color: var(--name-color);
@@ -59,14 +56,11 @@
   color: var(--story-color);
   font-size: 17px;
   margin-top: 20px;
-
 }
 
 @media (min-width: 768px) {
-
   .team__members {
     grid-template-columns: 1fr 1fr;
-
   }
 
   .team__subtitle {
@@ -80,11 +74,9 @@
   .team__member-name {
     font-size: 32px;
   }
-
 }
 
 @media (min-width: 990px) {
-
   .team__members {
     grid-template-columns: 1fr 1fr 1fr;
   }
