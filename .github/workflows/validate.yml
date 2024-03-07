@@ -23,6 +23,5 @@ jobs:
       - name: Run HTML Proofer
         run: |
           for file in $(find . -maxdepth 1 -iname "*.html"); do
-            htmlproofer $file --disable-external --allow_hash_href --allow-missing-href
-            --alt-ignore '/.*/' --assume-extension
+            htmlproofer $file --disable-external
           done
