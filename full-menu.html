@@ -13,7 +13,9 @@
     <link rel="stylesheet" href="./css/pages/full-menu-page.css" />
   </head>
   <body>
-    <header data-include="header.partial.html"></header>
+    <header data-hx-trigger="load"
+        data-hx-swap="outerhtml"
+        data-hx-get="header.partial.html"></header>
     <div class="full-menu__header">
       <h1 class="full-menu__header-title">MENU</h1>
     </div>
@@ -438,7 +440,9 @@
         </div>
       </section>
     </main>
-    <footer data-include="footer.partial.html"></footer>
+    <footer data-hx-trigger="load"
+        data-hx-swap="outerhtml"
+        data-hx-get="footer.partial.html"></footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
     <script src="./js/full-menu.js"></script>
   </body>

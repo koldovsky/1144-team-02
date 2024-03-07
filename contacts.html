@@ -14,7 +14,9 @@
   </head>
   <body>
     <header class="header">
-      <nav data-include="header.partial.html"></nav>
+      <nav data-hx-trigger="load"
+        data-hx-swap="outerhtml"
+        data-hx-get="header.partial.html"></nav>
       <div class="header__title-container">
         <h1 class="header__title">CONTACTS</h1>
       </div>
@@ -205,7 +207,9 @@
         </div>
       </div>
     </main>
-    <footer data-include="footer.partial.html"></footer>
+    <footer data-hx-trigger="load"
+        data-hx-swap="outerhtml"
+        data-hx-get="footer.partial.html"></footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
     <script src="./js/contacts.js"></script>
   </body>

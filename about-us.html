@@ -15,7 +15,9 @@
 
   <body>
     <header class="header">
-      <nav data-include="header.partial.html"></nav>
+      <nav data-hx-trigger="load"
+        data-hx-swap="outerhtml"
+        data-hx-get="header.partial.html"></nav>
     </header>
     <main>
       <section class="about-beer-boutique">
@@ -56,10 +58,16 @@
           </div>
         </div>
       </section>
-      <section data-include="about-us.our-team.partial.html"></section>
-      <section data-include="about-us-end.html"></section>
+      <section data-hx-trigger="load"
+        data-hx-swap="outerhtml"
+        data-hx-get="about-us.our-team.partial.html"></section>
+      <section data-hx-trigger="load"
+        data-hx-swap="outerhtml"
+        data-hx-get="about-us-end.html"></section>
     </main>
-    <footer data-include="footer.partial.html"></footer>
+    <footer data-hx-trigger="load"
+        data-hx-swap="outerhtml"
+        data-hx-get="footer.partial.html"></footer>
     <script src="https://unpkg.com/html-data-include@3.3.3/html-data-include.js"></script>
     <script src="./js/about-us.js"></script>
     <script src="./js/join-us-form.js"></script>
